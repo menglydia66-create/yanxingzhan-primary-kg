@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dependency.schema.json",
+  "title": "前置关系 Dependency",
+  "description": "学 to 之前要先会 from。整张图必须是有向无环图；必需前置不能出现在更晚的年级/册/单元（不能倒序）。",
+  "type": "object",
+  "required": ["from", "to", "strength", "reason"],
+  "additionalProperties": false,
+  "properties": {
+    "from": {"type": "string", "description": "前置知识点 id"},
+    "to": {"type": "string", "description": "后续知识点 id"},
+    "strength": {"enum": ["必需", "有帮助"], "description": "必需=不会它就学不会后面；有帮助=会了更容易"},
+    "reason": {"type": "string", "maxLength": 50, "description": "一句话原因（自写）"}
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "from": "EN-1A-001",
+    "to": "EN-1A-002",
+    "strength": "有帮助",
+    "reason": "先会用 It's 说东西，再学数数量更顺"
+  },
+  {
+    "from": "EN-1A-001",
+    "to": "EN-3A-002",
+    "strength": "有帮助",
+    "reason": "已感知 It is 结构，学 You are 更容易"
+  },
+  {
+    "from": "EN-1A-001",
+    "to": "EN-3A-003",
+    "strength": "必需",
+    "reason": "He's / She's 与 It's 同是「代词 + is」缩写"
+  },
+  {
+    "from": "EN-3A-002",
+    "to": "EN-3A-003",
+    "strength": "有帮助",
+    "reason": "先会说你我，再说他她"
+  }
+]

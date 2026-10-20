@@ -1,0 +1,280 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "topic.schema.json",
+  "title": "知识点 Topic（研星站小学知识图谱）v0.2",
+  "description": "一个知识点 = 一个能单独讲清、单独诊断的小点。概念用 name/essence；教材位置用 textbook_refs（带适用版本与 verification）。字段为研星站自写设计；只参考了公开数据集的思路（节点 + 前置边），未复制任何第三方数据或文字。",
+  "type": "object",
+  "required": [
+    "id",
+    "subject",
+    "name",
+    "kind",
+    "topic_chain",
+    "difficulty_level",
+    "textbook_refs",
+    "essence",
+    "mastery",
+    "explain",
+    "pitfalls",
+    "parent_check",
+    "oral_diagnosis",
+    "status"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(MA|CN|EN)-[A-Z0-9-]+$",
+      "description": "稳定 ID，发布后不改。MA=数学 CN=语文 EN=英语"
+    },
+    "subject": {
+      "enum": [
+        "数学",
+        "语文",
+        "英语"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 30,
+      "description": "概念名（自写概括，不用课文标题当名字）；与教材位置分离"
+    },
+    "kind": {
+      "enum": [
+        "概念",
+        "方法",
+        "规则",
+        "表达",
+        "读写技能",
+        "策略"
+      ],
+      "description": "概念=是什么；方法=怎么做/怎么算；规则=书写、拼写、标调等约定；表达=句型与说法；读写技能=朗读、书写等；策略=解题或学习思路"
+    },
+    "topic_chain": {
+      "type": "object",
+      "required": [
+        "chain_id",
+        "chain_name",
+        "step"
+      ],
+      "properties": {
+        "chain_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_.]+$"
+        },
+        "chain_name": {
+          "type": "string"
+        },
+        "step": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "difficulty_level": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "difficulty_note": {
+      "type": "string"
+    },
+    "textbook_refs": {
+      "type": "array",
+      "minItems": 1,
+      "description": "教材位置（适用版本）。查不到的字段写「待核对」，不许猜。",
+      "items": {
+        "type": "object",
+        "required": [
+          "edition",
+          "grade",
+          "term",
+          "unit_id",
+          "unit_name",
+          "verification"
+        ],
+        "properties": {
+          "edition": {
+            "type": "string",
+            "description": "适用版本，如 人教版2024 / 统编版2024修订 / 译林版三起2024 / Super Minds 2nd Starter"
+          },
+          "grade": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 6
+          },
+          "term": {
+            "enum": [
+              "上",
+              "下",
+              "全年"
+            ]
+          },
+          "unit_id": {
+            "type": "string"
+          },
+          "unit_order": {
+            "type": "integer"
+          },
+          "unit_name": {
+            "type": "string",
+            "description": "单元名；不确定时写「待核对」"
+          },
+          "verification": {
+            "enum": [
+              "已核-官方",
+              "已核-双源",
+              "已核-单源",
+              "待核对"
+            ],
+            "description": "位置可信度；待核对不得冒充已核"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "essence": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "mastery": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 4,
+      "items": {
+        "type": "string"
+      }
+    },
+    "explain": {
+      "type": "object",
+      "required": [
+        "scene",
+        "hook",
+        "steps",
+        "mistake"
+      ],
+      "properties": {
+        "scene": {
+          "type": "string"
+        },
+        "hook": {
+          "type": "string"
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 5,
+          "items": {
+            "type": "string"
+          }
+        },
+        "example": {
+          "type": "string"
+        },
+        "mistake": {
+          "type": "object",
+          "required": [
+            "wrong",
+            "right",
+            "why"
+          ],
+          "properties": {
+            "wrong": {
+              "type": "string"
+            },
+            "right": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "pitfalls": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "parent_check": {
+      "type": "string",
+      "description": "短展示用；与 oral_diagnosis.questions[0].ask 保持一致"
+    },
+    "oral_diagnosis": {
+      "type": "object",
+      "required": [
+        "questions",
+        "fallback"
+      ],
+      "description": "口头诊断卡：问1–3、通过标准、典型误概念、退步。一二年级只口头/游戏。",
+      "properties": {
+        "questions": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "ask",
+              "pass",
+              "misconception"
+            ],
+            "properties": {
+              "ask": {
+                "type": "string"
+              },
+              "pass": {
+                "type": "string"
+              },
+              "misconception": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "fallback": {
+          "type": "string",
+          "description": "答不好时退到哪个前置/活动"
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "草稿",
+        "内审通过",
+        "教师审核通过"
+      ]
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "by": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "updated": {
+      "type": "string"
+    },
+    "variant_pattern": {
+      "type": "string",
+      "description": "变题模式提示：只写换什么、不换考点；禁止贴教材原题。对应六层「错题变题巩固」占位。"
+    },
+    "error_understanding": {
+      "type": "string",
+      "description": "如何理解错题：错在哪一步→常因哪个前置→家长怎么问。可选。"
+    }
+  }
+}

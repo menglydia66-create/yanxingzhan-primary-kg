@@ -1,0 +1,3806 @@
+[
+  {
+    "from": "MA-1A-001",
+    "to": "MA-1A-002",
+    "strength": "必需",
+    "reason": "要先会数出个数，才能比多少"
+  },
+  {
+    "from": "MA-1A-001",
+    "to": "MA-1A-003",
+    "strength": "必需",
+    "reason": "数清个数后才分得清第几和几个"
+  },
+  {
+    "from": "MA-1A-001",
+    "to": "MA-1A-004",
+    "strength": "必需",
+    "reason": "分与合要先能数清每一堆"
+  },
+  {
+    "from": "MA-1A-004",
+    "to": "MA-1A-005",
+    "strength": "必需",
+    "reason": "加法的结果靠分与合想出来"
+  },
+  {
+    "from": "MA-1A-004",
+    "to": "MA-1A-006",
+    "strength": "必需",
+    "reason": "减法的结果靠分与合想出来"
+  },
+  {
+    "from": "MA-1A-005",
+    "to": "MA-1A-006",
+    "strength": "有帮助",
+    "reason": "先懂合起来，再懂拿走更容易"
+  },
+  {
+    "from": "MA-1A-001",
+    "to": "MA-1A-007",
+    "strength": "必需",
+    "reason": "要知道数表示个数，才能理解一个也没有"
+  },
+  {
+    "from": "MA-1A-006",
+    "to": "MA-1A-007",
+    "strength": "有帮助",
+    "reason": "全部拿走的减法是认识 0 的好场景"
+  },
+  {
+    "from": "MA-1A-004",
+    "to": "MA-1A-008",
+    "strength": "必需",
+    "reason": "6～9 的组成是 5 以内分与合的延伸"
+  },
+  {
+    "from": "MA-1A-004",
+    "to": "MA-1A-013",
+    "strength": "必需",
+    "reason": "凑成 10 前要先会「分与合」是什么"
+  },
+  {
+    "from": "MA-1A-008",
+    "to": "MA-1A-013",
+    "strength": "有帮助",
+    "reason": "会 6～9 分法后再记凑十更顺"
+  },
+  {
+    "from": "MA-1A-005",
+    "to": "MA-1A-009",
+    "strength": "必需",
+    "reason": "连加要先会一步加法"
+  },
+  {
+    "from": "MA-1A-006",
+    "to": "MA-1A-009",
+    "strength": "必需",
+    "reason": "连减要先会一步减法"
+  },
+  {
+    "from": "MA-1A-009",
+    "to": "MA-1A-014",
+    "strength": "必需",
+    "reason": "混合前要先会从左往右连算"
+  },
+  {
+    "from": "MA-1A-005",
+    "to": "MA-1A-014",
+    "strength": "有帮助",
+    "reason": "加减混合里仍要懂加法意思"
+  },
+  {
+    "from": "MA-1A-006",
+    "to": "MA-1A-014",
+    "strength": "有帮助",
+    "reason": "加减混合里仍要懂减法意思"
+  },
+  {
+    "from": "MA-1A-013",
+    "to": "MA-1A-011",
+    "strength": "必需",
+    "reason": "懂 10 怎么组成，才好理解一捆是 1 个十"
+  },
+  {
+    "from": "MA-1A-011",
+    "to": "MA-1A-012",
+    "strength": "必需",
+    "reason": "10 加几等于十几要先认识 11～20"
+  },
+  {
+    "from": "MA-1A-005",
+    "to": "MA-1A-012",
+    "strength": "必需",
+    "reason": "凑十法建立在加法意思之上"
+  },
+  {
+    "from": "MA-1A-013",
+    "to": "MA-1A-012",
+    "strength": "有帮助",
+    "reason": "会凑成10再学凑十法更顺；缺了也能靠退步问回到本点"
+  },
+  {
+    "from": "MA-1A-007",
+    "to": "MA-1A-015",
+    "strength": "必需",
+    "reason": "先认0，才会算加0减0"
+  },
+  {
+    "from": "MA-1A-005",
+    "to": "MA-1A-015",
+    "strength": "有帮助",
+    "reason": "已懂加法意思再学加0更顺"
+  },
+  {
+    "from": "MA-1A-001",
+    "to": "MA-1A-016",
+    "strength": "必需",
+    "reason": "先会5以内点数，再往后认到9"
+  },
+  {
+    "from": "MA-1A-016",
+    "to": "MA-1A-008",
+    "strength": "有帮助",
+    "reason": "会认读写6～9后再记组成更顺；原链已有001→008"
+  },
+  {
+    "from": "MA-1A-008",
+    "to": "MA-1A-017",
+    "strength": "必需",
+    "reason": "6～9加减靠组成想"
+  },
+  {
+    "from": "MA-1A-005",
+    "to": "MA-1A-017",
+    "strength": "有帮助",
+    "reason": "加法意思迁移到更大数"
+  },
+  {
+    "from": "MA-1A-006",
+    "to": "MA-1A-017",
+    "strength": "有帮助",
+    "reason": "减法意思迁移到更大数"
+  },
+  {
+    "from": "MA-1A-017",
+    "to": "MA-1A-018",
+    "strength": "必需",
+    "reason": "列加法解决问题前要会算"
+  },
+  {
+    "from": "MA-1A-005",
+    "to": "MA-1A-018",
+    "strength": "有帮助",
+    "reason": "「一共」对应加法意思"
+  },
+  {
+    "from": "MA-1A-017",
+    "to": "MA-1A-019",
+    "strength": "必需",
+    "reason": "列减法解决问题前要会算"
+  },
+  {
+    "from": "MA-1A-006",
+    "to": "MA-1A-019",
+    "strength": "有帮助",
+    "reason": "「还剩」对应减法意思"
+  },
+  {
+    "from": "MA-1A-016",
+    "to": "MA-1A-020",
+    "strength": "必需",
+    "reason": "认到9再认10"
+  },
+  {
+    "from": "MA-1A-020",
+    "to": "MA-1A-013",
+    "strength": "有帮助",
+    "reason": "认10后记10的分合更顺；原有008→013"
+  },
+  {
+    "from": "MA-1A-020",
+    "to": "MA-1A-021",
+    "strength": "必需",
+    "reason": "先认10再算10的加减"
+  },
+  {
+    "from": "MA-1A-013",
+    "to": "MA-1A-021",
+    "strength": "必需",
+    "reason": "10的加减直接用分与合"
+  },
+  {
+    "from": "MA-1A-010",
+    "to": "MA-1A-022",
+    "strength": "必需",
+    "reason": "先会认四种立体再拼搭"
+  },
+  {
+    "from": "MA-1A-011",
+    "to": "MA-1A-023",
+    "strength": "必需",
+    "reason": "不进位加减要先懂十几的组成"
+  },
+  {
+    "from": "MA-1A-005",
+    "to": "MA-1A-023",
+    "strength": "有帮助",
+    "reason": "加法意思仍要用"
+  },
+  {
+    "from": "MA-1A-012",
+    "to": "MA-1A-024",
+    "strength": "必需",
+    "reason": "同一套凑十步骤，从9加几扩到8/7/6"
+  },
+  {
+    "from": "MA-1A-024",
+    "to": "MA-1A-025",
+    "strength": "必需",
+    "reason": "先会大数凑十，再练小数在前"
+  },
+  {
+    "from": "MA-1A-024",
+    "to": "MA-1A-026",
+    "strength": "必需",
+    "reason": "进位加法应用题要会凑十口算"
+  },
+  {
+    "from": "MA-1A-018",
+    "to": "MA-1A-026",
+    "strength": "有帮助",
+    "reason": "已会「一共用加法」的策略"
+  },
+  {
+    "from": "MA-1A-026",
+    "to": "MA-1A-027",
+    "strength": "必需",
+    "reason": "正向一共会了再逆向求加数"
+  },
+  {
+    "from": "MA-1A-019",
+    "to": "MA-1A-027",
+    "strength": "有帮助",
+    "reason": "求另一部分常落到减法"
+  },
+  {
+    "from": "MA-1A-021",
+    "to": "MA-1A-009",
+    "strength": "有帮助",
+    "reason": "会10的加减后再练连加连减更稳"
+  },
+  {
+    "from": "MA-1A-020",
+    "to": "MA-1A-011",
+    "strength": "有帮助",
+    "reason": "认清10再学11～20更顺"
+  },
+  {
+    "from": "MA-1A-010",
+    "to": "MA-1B-001",
+    "strength": "有帮助",
+    "reason": "先认立体再认平面，面从体上抽象出来更容易"
+  },
+  {
+    "from": "MA-1B-001",
+    "to": "MA-1B-002",
+    "strength": "必需",
+    "reason": "拼组前要能认出各平面图形"
+  },
+  {
+    "from": "MA-1A-012",
+    "to": "MA-1B-003",
+    "strength": "必需",
+    "reason": "破十与凑十互逆，先会9加几再学十几减9"
+  },
+  {
+    "from": "MA-1A-006",
+    "to": "MA-1B-003",
+    "strength": "必需",
+    "reason": "退位减建立在减法意思上"
+  },
+  {
+    "from": "MA-1A-011",
+    "to": "MA-1B-003",
+    "strength": "有帮助",
+    "reason": "认清十几的组成再破十更顺"
+  },
+  {
+    "from": "MA-1B-003",
+    "to": "MA-1B-004",
+    "strength": "必需",
+    "reason": "减9稳了再扩到减8～6"
+  },
+  {
+    "from": "MA-1A-024",
+    "to": "MA-1B-004",
+    "strength": "有帮助",
+    "reason": "8、7、6加几与对应减法互逆"
+  },
+  {
+    "from": "MA-1B-004",
+    "to": "MA-1B-005",
+    "strength": "必需",
+    "reason": "减8～6熟练后再练减5～2"
+  },
+  {
+    "from": "MA-1A-025",
+    "to": "MA-1B-005",
+    "strength": "有帮助",
+    "reason": "5～2加几帮助想加算减"
+  },
+  {
+    "from": "MA-1B-005",
+    "to": "MA-1B-006",
+    "strength": "必需",
+    "reason": "会算退位减才能解决拿走类问题"
+  },
+  {
+    "from": "MA-1A-019",
+    "to": "MA-1B-006",
+    "strength": "有帮助",
+    "reason": "已有「还剩」用减法的经验"
+  },
+  {
+    "from": "MA-1A-011",
+    "to": "MA-1B-007",
+    "strength": "必需",
+    "reason": "20以内的「十和一」是100以内组成的基础"
+  },
+  {
+    "from": "MA-1B-007",
+    "to": "MA-1B-008",
+    "strength": "必需",
+    "reason": "先懂组成再读写数位"
+  },
+  {
+    "from": "MA-1B-008",
+    "to": "MA-1B-009",
+    "strength": "必需",
+    "reason": "会读写两位数再认识100这个三位数"
+  },
+  {
+    "from": "MA-1B-007",
+    "to": "MA-1B-009",
+    "strength": "有帮助",
+    "reason": "10个十的组成直接通向100"
+  },
+  {
+    "from": "MA-1B-008",
+    "to": "MA-1B-010",
+    "strength": "必需",
+    "reason": "会读写才能比较和排序"
+  },
+  {
+    "from": "MA-1A-002",
+    "to": "MA-1B-010",
+    "strength": "有帮助",
+    "reason": "已有＞＜＝的初步经验"
+  },
+  {
+    "from": "MA-1B-007",
+    "to": "MA-1B-011",
+    "strength": "必需",
+    "reason": "整十加减要先知道几个十"
+  },
+  {
+    "from": "MA-1A-021",
+    "to": "MA-1B-011",
+    "strength": "有帮助",
+    "reason": "10的加减迁移到整十加减"
+  },
+  {
+    "from": "MA-1B-011",
+    "to": "MA-1B-012",
+    "strength": "必需",
+    "reason": "整十与简单加减为口算两位数打底"
+  },
+  {
+    "from": "MA-1B-012",
+    "to": "MA-1B-013",
+    "strength": "必需",
+    "reason": "不进位口算稳了再学进位口算"
+  },
+  {
+    "from": "MA-1A-012",
+    "to": "MA-1B-013",
+    "strength": "有帮助",
+    "reason": "凑十经验帮助个位满十进一"
+  },
+  {
+    "from": "MA-1B-012",
+    "to": "MA-1B-014",
+    "strength": "有帮助",
+    "reason": "加法口算的数位分工可迁移到减法"
+  },
+  {
+    "from": "MA-1B-011",
+    "to": "MA-1B-014",
+    "strength": "必需",
+    "reason": "减整十、减一位建立在整十认识上"
+  },
+  {
+    "from": "MA-1B-014",
+    "to": "MA-1B-015",
+    "strength": "必需",
+    "reason": "不退位口算会了再学退位口算"
+  },
+  {
+    "from": "MA-1B-003",
+    "to": "MA-1B-015",
+    "strength": "有帮助",
+    "reason": "破十思路可迁移到两位数退位减"
+  },
+  {
+    "from": "MA-1B-015",
+    "to": "MA-1B-016",
+    "strength": "必需",
+    "reason": "连减每一步都可能用到退位口算"
+  },
+  {
+    "from": "MA-1A-009",
+    "to": "MA-1B-016",
+    "strength": "有帮助",
+    "reason": "已有连减从左往右的经验"
+  },
+  {
+    "from": "MA-1B-013",
+    "to": "MA-1B-017",
+    "strength": "必需",
+    "reason": "进位口算熟练后再落到竖式笔算加"
+  },
+  {
+    "from": "MA-1B-012",
+    "to": "MA-1B-017",
+    "strength": "有帮助",
+    "reason": "不进位口算帮助理解竖式数位对齐"
+  },
+  {
+    "from": "MA-1B-015",
+    "to": "MA-1B-018",
+    "strength": "必需",
+    "reason": "退位口算会了再学笔算退位减"
+  },
+  {
+    "from": "MA-1B-017",
+    "to": "MA-1B-018",
+    "strength": "有帮助",
+    "reason": "竖式对齐与从个位算起的书写习惯可共用"
+  },
+  {
+    "from": "MA-1B-014",
+    "to": "MA-1B-019",
+    "strength": "必需",
+    "reason": "求相差要用到减法计算"
+  },
+  {
+    "from": "MA-1A-019",
+    "to": "MA-1B-019",
+    "strength": "有帮助",
+    "reason": "「还剩」与「相差」都常用减法"
+  },
+  {
+    "from": "MA-1B-019",
+    "to": "MA-1B-020",
+    "strength": "必需",
+    "reason": "先懂相差再求「比一个数多/少几」"
+  },
+  {
+    "from": "MA-1B-012",
+    "to": "MA-1B-020",
+    "strength": "有帮助",
+    "reason": "多几用加法时常要口算两位数加一位"
+  },
+  {
+    "from": "MA-1B-020",
+    "to": "MA-1B-021",
+    "strength": "必需",
+    "reason": "连续两问建立在一步相差关系上"
+  },
+  {
+    "from": "MA-1B-019",
+    "to": "MA-1B-021",
+    "strength": "有帮助",
+    "reason": "后一问常再次用到相差或求和"
+  },
+  {
+    "from": "MA-1B-007",
+    "to": "MA-1B-022",
+    "strength": "有帮助",
+    "reason": "几个十几个一的组成帮助理解元角进率"
+  },
+  {
+    "from": "MA-1B-022",
+    "to": "MA-1B-023",
+    "strength": "必需",
+    "reason": "先认币和进率再算付钱找钱"
+  },
+  {
+    "from": "MA-1B-014",
+    "to": "MA-1B-023",
+    "strength": "有帮助",
+    "reason": "找零常用减法口算"
+  },
+  {
+    "from": "MA-1B-001",
+    "to": "MA-2A-001",
+    "strength": "有帮助",
+    "reason": "认平面图形帮助按形状分类"
+  },
+  {
+    "from": "MA-2A-001",
+    "to": "MA-2A-002",
+    "strength": "必需",
+    "reason": "先会按给定标准，再会自己选"
+  },
+  {
+    "from": "MA-2A-002",
+    "to": "MA-2A-003",
+    "strength": "必需",
+    "reason": "先一次分类，再学两层细分"
+  },
+  {
+    "from": "MA-1A-009",
+    "to": "MA-2A-004",
+    "strength": "必需",
+    "reason": "乘法由相同加数的连加引入"
+  },
+  {
+    "from": "MA-1B-007",
+    "to": "MA-2A-004",
+    "strength": "有帮助",
+    "reason": "百以内数感支持几个几"
+  },
+  {
+    "from": "MA-2A-004",
+    "to": "MA-2A-005",
+    "strength": "必需",
+    "reason": "先懂乘法意思再记5的口诀"
+  },
+  {
+    "from": "MA-2A-005",
+    "to": "MA-2A-006",
+    "strength": "必需",
+    "reason": "先会用口诀，再扩2～4"
+  },
+  {
+    "from": "MA-2A-006",
+    "to": "MA-2A-007",
+    "strength": "必需",
+    "reason": "乘加乘减建立在会表内乘"
+  },
+  {
+    "from": "MA-2A-006",
+    "to": "MA-2A-008",
+    "strength": "必需",
+    "reason": "2～4口诀铺垫后再学6"
+  },
+  {
+    "from": "MA-2A-004",
+    "to": "MA-2A-009",
+    "strength": "必需",
+    "reason": "选运算先分清乘法适用条件"
+  },
+  {
+    "from": "MA-2A-008",
+    "to": "MA-2A-009",
+    "strength": "有帮助",
+    "reason": "口诀熟更易判断用乘"
+  },
+  {
+    "from": "MA-2A-004",
+    "to": "MA-2A-010",
+    "strength": "必需",
+    "reason": "购物乘法先会几个几"
+  },
+  {
+    "from": "MA-1B-023",
+    "to": "MA-2A-010",
+    "strength": "有帮助",
+    "reason": "买卖经验衔接总价计算"
+  },
+  {
+    "from": "MA-2A-008",
+    "to": "MA-2A-010",
+    "strength": "有帮助",
+    "reason": "1～6口诀够算简单总价"
+  },
+  {
+    "from": "MA-2A-004",
+    "to": "MA-2A-011",
+    "strength": "有帮助",
+    "reason": "几个几的逆向是包含分"
+  },
+  {
+    "from": "MA-1A-004",
+    "to": "MA-2A-012",
+    "strength": "有帮助",
+    "reason": "分与合经验帮助等分"
+  },
+  {
+    "from": "MA-2A-011",
+    "to": "MA-2A-013",
+    "strength": "必需",
+    "reason": "先会包含分再符号化除法"
+  },
+  {
+    "from": "MA-2A-012",
+    "to": "MA-2A-013",
+    "strength": "必需",
+    "reason": "先会等分再符号化除法"
+  },
+  {
+    "from": "MA-2A-013",
+    "to": "MA-2A-014",
+    "strength": "必需",
+    "reason": "先认除法算式再会想口诀求商"
+  },
+  {
+    "from": "MA-2A-008",
+    "to": "MA-2A-014",
+    "strength": "必需",
+    "reason": "求商依赖2～6乘法口诀"
+  },
+  {
+    "from": "MA-2A-014",
+    "to": "MA-2A-015",
+    "strength": "必需",
+    "reason": "应用题建立在会求商"
+  },
+  {
+    "from": "MA-2A-009",
+    "to": "MA-2A-015",
+    "strength": "有帮助",
+    "reason": "选运算经验迁移到乘除判断"
+  },
+  {
+    "from": "MA-1A-003",
+    "to": "MA-2A-016",
+    "strength": "有帮助",
+    "reason": "第几与方位感知有帮助"
+  },
+  {
+    "from": "MA-2A-016",
+    "to": "MA-2A-017",
+    "strength": "必需",
+    "reason": "先认东南西北再说路线"
+  },
+  {
+    "from": "MA-1B-001",
+    "to": "MA-2A-018",
+    "strength": "有帮助",
+    "reason": "平面直观帮助理解可量的边"
+  },
+  {
+    "from": "MA-2A-018",
+    "to": "MA-2A-019",
+    "strength": "必需",
+    "reason": "先熟悉厘米再认识米与进率"
+  },
+  {
+    "from": "MA-2A-018",
+    "to": "MA-2A-020",
+    "strength": "必需",
+    "reason": "量线段长度先要会用厘米"
+  },
+  {
+    "from": "MA-2A-019",
+    "to": "MA-2A-021",
+    "strength": "必需",
+    "reason": "估量前要有米厘米量感"
+  },
+  {
+    "from": "MA-2A-018",
+    "to": "MA-2A-021",
+    "strength": "有帮助",
+    "reason": "厘米量感支持估短物体"
+  },
+  {
+    "from": "MA-2A-018",
+    "to": "MA-2A-022",
+    "strength": "必需",
+    "reason": "标定身体尺要用厘米尺"
+  },
+  {
+    "from": "MA-2A-021",
+    "to": "MA-2A-022",
+    "strength": "有帮助",
+    "reason": "估测习惯迁移到身体尺"
+  },
+  {
+    "from": "MA-2A-008",
+    "to": "MA-2A-023",
+    "strength": "必需",
+    "reason": "1～6口诀后再学7"
+  },
+  {
+    "from": "MA-2A-023",
+    "to": "MA-2A-024",
+    "strength": "必需",
+    "reason": "7的口诀铺垫后学8"
+  },
+  {
+    "from": "MA-2A-024",
+    "to": "MA-2A-025",
+    "strength": "必需",
+    "reason": "8的口诀铺垫后学9"
+  },
+  {
+    "from": "MA-2A-014",
+    "to": "MA-2A-026",
+    "strength": "必需",
+    "reason": "先会用口诀求商，再扩到7～9"
+  },
+  {
+    "from": "MA-2A-025",
+    "to": "MA-2A-026",
+    "strength": "必需",
+    "reason": "求商需要7～9乘法口诀"
+  },
+  {
+    "from": "MA-2A-015",
+    "to": "MA-2A-027",
+    "strength": "必需",
+    "reason": "连续两问建立在除法应用上"
+  },
+  {
+    "from": "MA-2A-010",
+    "to": "MA-2A-027",
+    "strength": "有帮助",
+    "reason": "乘法应用经验支持前一问"
+  },
+  {
+    "from": "MA-2A-026",
+    "to": "MA-2A-027",
+    "strength": "有帮助",
+    "reason": "7～9求商支持第二问除法"
+  },
+  {
+    "from": "MA-2B-001",
+    "to": "MA-2B-002",
+    "strength": "必需",
+    "reason": "会认整时半时才能说日常安排"
+  },
+  {
+    "from": "MA-1A-003",
+    "to": "MA-2B-001",
+    "strength": "有帮助",
+    "reason": "第几顺序感有助读钟顺序"
+  },
+  {
+    "from": "MA-2A-013",
+    "to": "MA-2B-003",
+    "strength": "必需",
+    "reason": "先会除法意义再学有余数"
+  },
+  {
+    "from": "MA-2A-014",
+    "to": "MA-2B-003",
+    "strength": "有帮助",
+    "reason": "表内求商经验支持分剩"
+  },
+  {
+    "from": "MA-2B-003",
+    "to": "MA-2B-004",
+    "strength": "必需",
+    "reason": "先理解余数再判余数大小"
+  },
+  {
+    "from": "MA-2B-003",
+    "to": "MA-2B-005",
+    "strength": "必需",
+    "reason": "先懂含义再写竖式"
+  },
+  {
+    "from": "MA-2B-004",
+    "to": "MA-2B-005",
+    "strength": "有帮助",
+    "reason": "写竖式时要检查余数"
+  },
+  {
+    "from": "MA-2B-004",
+    "to": "MA-2B-006",
+    "strength": "必需",
+    "reason": "试商后要用余数规则检查"
+  },
+  {
+    "from": "MA-2B-005",
+    "to": "MA-2B-006",
+    "strength": "必需",
+    "reason": "竖式是试商记录方式"
+  },
+  {
+    "from": "MA-2A-026",
+    "to": "MA-2B-006",
+    "strength": "有帮助",
+    "reason": "7～9口诀支持较大试商"
+  },
+  {
+    "from": "MA-2B-006",
+    "to": "MA-2B-007",
+    "strength": "必需",
+    "reason": "先算准商余再谈进一去尾"
+  },
+  {
+    "from": "MA-2B-006",
+    "to": "MA-2B-008",
+    "strength": "必需",
+    "reason": "周期题建立在有余数计算上"
+  },
+  {
+    "from": "MA-2B-004",
+    "to": "MA-2B-008",
+    "strength": "有帮助",
+    "reason": "余数对应循环项时要合法"
+  },
+  {
+    "from": "MA-2A-004",
+    "to": "MA-2B-009",
+    "strength": "必需",
+    "reason": "倍建立在几个几与乘法上"
+  },
+  {
+    "from": "MA-2A-011",
+    "to": "MA-2B-009",
+    "strength": "有帮助",
+    "reason": "平均分经验帮助理解份"
+  },
+  {
+    "from": "MA-2B-009",
+    "to": "MA-2B-010",
+    "strength": "必需",
+    "reason": "先懂倍再用除法求几倍"
+  },
+  {
+    "from": "MA-2A-014",
+    "to": "MA-2B-010",
+    "strength": "必需",
+    "reason": "求几倍要用表内除法"
+  },
+  {
+    "from": "MA-2B-009",
+    "to": "MA-2B-011",
+    "strength": "必需",
+    "reason": "先懂倍再用乘法求几倍数"
+  },
+  {
+    "from": "MA-2A-005",
+    "to": "MA-2B-011",
+    "strength": "有帮助",
+    "reason": "口诀支持求几倍数"
+  },
+  {
+    "from": "MA-2B-009",
+    "to": "MA-2B-012",
+    "strength": "必需",
+    "reason": "反求一倍数仍基于倍概念"
+  },
+  {
+    "from": "MA-2B-010",
+    "to": "MA-2B-012",
+    "strength": "有帮助",
+    "reason": "求几倍的逆运算思路"
+  },
+  {
+    "from": "MA-2A-014",
+    "to": "MA-2B-012",
+    "strength": "必需",
+    "reason": "求一倍数用除法"
+  },
+  {
+    "from": "MA-2B-010",
+    "to": "MA-2B-013",
+    "strength": "必需",
+    "reason": "连续两问常含求几倍"
+  },
+  {
+    "from": "MA-2B-011",
+    "to": "MA-2B-013",
+    "strength": "必需",
+    "reason": "连续两问常含求几倍数"
+  },
+  {
+    "from": "MA-2A-027",
+    "to": "MA-2B-013",
+    "strength": "有帮助",
+    "reason": "二上连续两问经验可迁移"
+  },
+  {
+    "from": "MA-2B-010",
+    "to": "MA-2B-014",
+    "strength": "必需",
+    "reason": "提问题建立在会求几倍上"
+  },
+  {
+    "from": "MA-2B-011",
+    "to": "MA-2B-014",
+    "strength": "有帮助",
+    "reason": "也会提乘法类倍的问题"
+  },
+  {
+    "from": "MA-2B-013",
+    "to": "MA-2B-014",
+    "strength": "有帮助",
+    "reason": "连续两问后更会补条件"
+  },
+  {
+    "from": "MA-1B-009",
+    "to": "MA-2B-015",
+    "strength": "必需",
+    "reason": "认识100后扩展整百"
+  },
+  {
+    "from": "MA-1B-007",
+    "to": "MA-2B-015",
+    "strength": "有帮助",
+    "reason": "100以内组成支持按百数"
+  },
+  {
+    "from": "MA-2B-015",
+    "to": "MA-2B-016",
+    "strength": "必需",
+    "reason": "整百是千以内组成基础"
+  },
+  {
+    "from": "MA-1B-008",
+    "to": "MA-2B-016",
+    "strength": "有帮助",
+    "reason": "100以内读写迁移"
+  },
+  {
+    "from": "MA-2B-016",
+    "to": "MA-2B-017",
+    "strength": "必需",
+    "reason": "千以内熟练后再认识一千"
+  },
+  {
+    "from": "MA-2B-017",
+    "to": "MA-2B-018",
+    "strength": "必需",
+    "reason": "认识千后扩展到万与数位"
+  },
+  {
+    "from": "MA-2B-018",
+    "to": "MA-2B-019",
+    "strength": "必需",
+    "reason": "数位表是算盘分档前提"
+  },
+  {
+    "from": "MA-2B-018",
+    "to": "MA-2B-020",
+    "strength": "必需",
+    "reason": "数位清楚才能读写万以内数"
+  },
+  {
+    "from": "MA-2B-016",
+    "to": "MA-2B-020",
+    "strength": "有帮助",
+    "reason": "千以内读写经验直接迁移"
+  },
+  {
+    "from": "MA-2B-020",
+    "to": "MA-2B-021",
+    "strength": "必需",
+    "reason": "会读写再比大小"
+  },
+  {
+    "from": "MA-1B-010",
+    "to": "MA-2B-021",
+    "strength": "有帮助",
+    "reason": "100以内比大小规则迁移"
+  },
+  {
+    "from": "MA-2B-021",
+    "to": "MA-2B-022",
+    "strength": "必需",
+    "reason": "近似常要判断接近哪个整百"
+  },
+  {
+    "from": "MA-2B-015",
+    "to": "MA-2B-023",
+    "strength": "必需",
+    "reason": "整百加减先会整百"
+  },
+  {
+    "from": "MA-1B-011",
+    "to": "MA-2B-023",
+    "strength": "必需",
+    "reason": "整十加减经验迁移到整百千"
+  },
+  {
+    "from": "MA-2B-017",
+    "to": "MA-2B-023",
+    "strength": "有帮助",
+    "reason": "认识千支持整千加减"
+  },
+  {
+    "from": "MA-1B-017",
+    "to": "MA-2B-024",
+    "strength": "必需",
+    "reason": "100以内笔算加法是基础"
+  },
+  {
+    "from": "MA-2B-020",
+    "to": "MA-2B-024",
+    "strength": "必需",
+    "reason": "会读写万以内数才能笔算"
+  },
+  {
+    "from": "MA-2B-024",
+    "to": "MA-2B-025",
+    "strength": "必需",
+    "reason": "一次进位后再学连续进位"
+  },
+  {
+    "from": "MA-1B-018",
+    "to": "MA-2B-026",
+    "strength": "必需",
+    "reason": "100以内笔算减法是基础"
+  },
+  {
+    "from": "MA-2B-020",
+    "to": "MA-2B-026",
+    "strength": "必需",
+    "reason": "会读写万以内数才能笔算减"
+  },
+  {
+    "from": "MA-2B-026",
+    "to": "MA-2B-027",
+    "strength": "必需",
+    "reason": "一般退位后再攻含0退位"
+  },
+  {
+    "from": "MA-2B-024",
+    "to": "MA-2B-028",
+    "strength": "必需",
+    "reason": "在会加法上谈各部分关系"
+  },
+  {
+    "from": "MA-2B-026",
+    "to": "MA-2B-028",
+    "strength": "必需",
+    "reason": "在会减法上谈各部分关系"
+  },
+  {
+    "from": "MA-1A-027",
+    "to": "MA-2B-028",
+    "strength": "有帮助",
+    "reason": "已知和求加数经验可迁移"
+  },
+  {
+    "from": "MA-2B-022",
+    "to": "MA-2B-029",
+    "strength": "必需",
+    "reason": "估算常用近似数"
+  },
+  {
+    "from": "MA-2B-023",
+    "to": "MA-2B-029",
+    "strength": "必需",
+    "reason": "整百口算支持估算"
+  },
+  {
+    "from": "MA-2B-024",
+    "to": "MA-2B-029",
+    "strength": "有帮助",
+    "reason": "精算对比估算更有意义"
+  },
+  {
+    "from": "MA-2B-024",
+    "to": "MA-2B-030",
+    "strength": "必需",
+    "reason": "解决问题需要加法笔算"
+  },
+  {
+    "from": "MA-2B-026",
+    "to": "MA-2B-030",
+    "strength": "必需",
+    "reason": "解决问题需要减法笔算"
+  },
+  {
+    "from": "MA-2B-029",
+    "to": "MA-2B-030",
+    "strength": "有帮助",
+    "reason": "估算可检查应用题答数"
+  },
+  {
+    "from": "MA-1A-010",
+    "to": "MA-3A-001",
+    "strength": "必需",
+    "reason": "先认识立体图形再谈从一面看"
+  },
+  {
+    "from": "MA-1A-022",
+    "to": "MA-3A-001",
+    "strength": "有帮助",
+    "reason": "拼搭经验支持想象看不见的面"
+  },
+  {
+    "from": "MA-3A-001",
+    "to": "MA-3A-002",
+    "strength": "必需",
+    "reason": "先会单位置再对照多位置视图"
+  },
+  {
+    "from": "MA-1A-014",
+    "to": "MA-3A-003",
+    "strength": "必需",
+    "reason": "加减混合是同级运算基础"
+  },
+  {
+    "from": "MA-2A-007",
+    "to": "MA-3A-003",
+    "strength": "有帮助",
+    "reason": "乘加乘减经验迁移到同级"
+  },
+  {
+    "from": "MA-3A-003",
+    "to": "MA-3A-004",
+    "strength": "必需",
+    "reason": "先会同级顺序再学先乘除"
+  },
+  {
+    "from": "MA-2A-005",
+    "to": "MA-3A-004",
+    "strength": "有帮助",
+    "reason": "口诀支持两级式中的乘除"
+  },
+  {
+    "from": "MA-3A-004",
+    "to": "MA-3A-005",
+    "strength": "必需",
+    "reason": "先会无括号两级再引入括号"
+  },
+  {
+    "from": "MA-3A-005",
+    "to": "MA-3A-006",
+    "strength": "必需",
+    "reason": "综合算式建立在会括号与两级上"
+  },
+  {
+    "from": "MA-3A-004",
+    "to": "MA-3A-006",
+    "strength": "有帮助",
+    "reason": "无括号两级也可直接列综合式"
+  },
+  {
+    "from": "MA-2A-018",
+    "to": "MA-3A-007",
+    "strength": "必需",
+    "reason": "厘米是认识毫米的直接基础"
+  },
+  {
+    "from": "MA-2A-019",
+    "to": "MA-3A-008",
+    "strength": "必需",
+    "reason": "米的认识支持分米到米的进率"
+  },
+  {
+    "from": "MA-3A-007",
+    "to": "MA-3A-008",
+    "strength": "有帮助",
+    "reason": "毫米厘米经验帮助理解分米进率"
+  },
+  {
+    "from": "MA-2A-019",
+    "to": "MA-3A-009",
+    "strength": "必需",
+    "reason": "千米建立在米的进率上"
+  },
+  {
+    "from": "MA-3A-008",
+    "to": "MA-3A-009",
+    "strength": "有帮助",
+    "reason": "中等单位感有助区分路程单位"
+  },
+  {
+    "from": "MA-3A-007",
+    "to": "MA-3A-010",
+    "strength": "必需",
+    "reason": "估短小物体常要用毫米"
+  },
+  {
+    "from": "MA-3A-009",
+    "to": "MA-3A-010",
+    "strength": "必需",
+    "reason": "估路程要用千米"
+  },
+  {
+    "from": "MA-3A-008",
+    "to": "MA-3A-010",
+    "strength": "有帮助",
+    "reason": "中等长度估计常用分米"
+  },
+  {
+    "from": "MA-2A-021",
+    "to": "MA-3A-010",
+    "strength": "有帮助",
+    "reason": "二上估量策略可迁移"
+  },
+  {
+    "from": "MA-3A-011",
+    "to": "MA-3A-012",
+    "strength": "必需",
+    "reason": "先认克千克再称重估重"
+  },
+  {
+    "from": "MA-2B-020",
+    "to": "MA-3A-011",
+    "strength": "有帮助",
+    "reason": "读写较大数有助读秤示数"
+  },
+  {
+    "from": "MA-2A-025",
+    "to": "MA-3A-013",
+    "strength": "必需",
+    "reason": "表内口诀是口算整十整百乘的基础"
+  },
+  {
+    "from": "MA-2B-015",
+    "to": "MA-3A-013",
+    "strength": "有帮助",
+    "reason": "整百认识支持整百乘法"
+  },
+  {
+    "from": "MA-3A-013",
+    "to": "MA-3A-014",
+    "strength": "必需",
+    "reason": "口算整十整百后学一般笔算"
+  },
+  {
+    "from": "MA-2A-025",
+    "to": "MA-3A-014",
+    "strength": "有帮助",
+    "reason": "口诀直接支持笔算各位乘法"
+  },
+  {
+    "from": "MA-3A-014",
+    "to": "MA-3A-015",
+    "strength": "必需",
+    "reason": "不进位笔算后再学进位"
+  },
+  {
+    "from": "MA-3A-015",
+    "to": "MA-3A-016",
+    "strength": "必需",
+    "reason": "一次进位后再学连续进位"
+  },
+  {
+    "from": "MA-3A-016",
+    "to": "MA-3A-017",
+    "strength": "必需",
+    "reason": "连续进位熟练后再攻含0"
+  },
+  {
+    "from": "MA-3A-014",
+    "to": "MA-3A-017",
+    "strength": "有帮助",
+    "reason": "基本竖式对位在含0时仍关键"
+  },
+  {
+    "from": "MA-3A-016",
+    "to": "MA-3A-018",
+    "strength": "必需",
+    "reason": "应用题需要过关的笔算能力"
+  },
+  {
+    "from": "MA-3A-013",
+    "to": "MA-3A-018",
+    "strength": "有帮助",
+    "reason": "能口算时优先口算"
+  },
+  {
+    "from": "MA-2A-010",
+    "to": "MA-3A-018",
+    "strength": "有帮助",
+    "reason": "二上乘法应用经验可迁移"
+  },
+  {
+    "from": "MA-2B-018",
+    "to": "MA-3A-019",
+    "strength": "必需",
+    "reason": "数位与数位顺序感支持分段编码"
+  },
+  {
+    "from": "MA-3A-019",
+    "to": "MA-3A-020",
+    "strength": "必需",
+    "reason": "先读懂编码再学编制"
+  },
+  {
+    "from": "MA-2A-020",
+    "to": "MA-3A-021",
+    "strength": "必需",
+    "reason": "先认识线段再扩展射线直线"
+  },
+  {
+    "from": "MA-3A-021",
+    "to": "MA-3A-022",
+    "strength": "必需",
+    "reason": "先分清线段再比较长短"
+  },
+  {
+    "from": "MA-3A-007",
+    "to": "MA-3A-022",
+    "strength": "有帮助",
+    "reason": "毫米精度支持更细比较"
+  },
+  {
+    "from": "MA-3A-021",
+    "to": "MA-3A-023",
+    "strength": "必需",
+    "reason": "角的边是射线，需先认射线"
+  },
+  {
+    "from": "MA-3A-023",
+    "to": "MA-3A-024",
+    "strength": "必需",
+    "reason": "先认角再分直角锐角钝角"
+  },
+  {
+    "from": "MA-2A-011",
+    "to": "MA-3A-025",
+    "strength": "必需",
+    "reason": "平均分是分数的直接基础"
+  },
+  {
+    "from": "MA-2A-013",
+    "to": "MA-3A-025",
+    "strength": "有帮助",
+    "reason": "除法意义强化平均分"
+  },
+  {
+    "from": "MA-3A-025",
+    "to": "MA-3A-026",
+    "strength": "必需",
+    "reason": "先会几分之一再扩展几分之几"
+  },
+  {
+    "from": "MA-3A-026",
+    "to": "MA-3A-027",
+    "strength": "必需",
+    "reason": "会读写几分之几才能比大小"
+  },
+  {
+    "from": "MA-3A-026",
+    "to": "MA-3A-028",
+    "strength": "必需",
+    "reason": "加减建立在几分之几含义上"
+  },
+  {
+    "from": "MA-3A-027",
+    "to": "MA-3A-028",
+    "strength": "有帮助",
+    "reason": "比大小巩固同分母份数观念"
+  },
+  {
+    "from": "MA-3A-026",
+    "to": "MA-3A-029",
+    "strength": "必需",
+    "reason": "一堆物体的分数仍基于几分之几"
+  },
+  {
+    "from": "MA-3A-025",
+    "to": "MA-3A-029",
+    "strength": "有帮助",
+    "reason": "一份的观念迁移到一堆里的一份"
+  },
+  {
+    "from": "MA-3A-029",
+    "to": "MA-3A-030",
+    "strength": "必需",
+    "reason": "应用常涉及一堆物体的几分之几"
+  },
+  {
+    "from": "MA-3A-028",
+    "to": "MA-3A-030",
+    "strength": "有帮助",
+    "reason": "简单加减可出现在应用中"
+  },
+  {
+    "from": "MA-1B-001",
+    "to": "MA-3B-001",
+    "strength": "必需",
+    "reason": "先认平面图形再判断轴对称"
+  },
+  {
+    "from": "MA-1B-002",
+    "to": "MA-3B-001",
+    "strength": "有帮助",
+    "reason": "拼组经验有助想象对折"
+  },
+  {
+    "from": "MA-3B-001",
+    "to": "MA-3B-002",
+    "strength": "有帮助",
+    "reason": "对称图形常作为平移素材"
+  },
+  {
+    "from": "MA-2A-016",
+    "to": "MA-3B-002",
+    "strength": "有帮助",
+    "reason": "方向感支持描述平移方向"
+  },
+  {
+    "from": "MA-3B-002",
+    "to": "MA-3B-003",
+    "strength": "必需",
+    "reason": "先分清平移再对照旋转"
+  },
+  {
+    "from": "MA-2B-001",
+    "to": "MA-3B-003",
+    "strength": "有帮助",
+    "reason": "钟面经验支持旋转直观"
+  },
+  {
+    "from": "MA-2A-013",
+    "to": "MA-3B-004",
+    "strength": "必需",
+    "reason": "表内除法是口算整十整百除的基础"
+  },
+  {
+    "from": "MA-2B-015",
+    "to": "MA-3B-004",
+    "strength": "有帮助",
+    "reason": "整百认识支持整百除法"
+  },
+  {
+    "from": "MA-3B-004",
+    "to": "MA-3B-005",
+    "strength": "必需",
+    "reason": "整百整十口算后再合几百几十"
+  },
+  {
+    "from": "MA-3B-004",
+    "to": "MA-3B-006",
+    "strength": "必需",
+    "reason": "估算常估到整百再除"
+  },
+  {
+    "from": "MA-2B-005",
+    "to": "MA-3B-007",
+    "strength": "必需",
+    "reason": "有余数竖式是笔算除法基础"
+  },
+  {
+    "from": "MA-3B-004",
+    "to": "MA-3B-007",
+    "strength": "有帮助",
+    "reason": "口算经验支持试商"
+  },
+  {
+    "from": "MA-3B-007",
+    "to": "MA-3B-008",
+    "strength": "必需",
+    "reason": "两位数笔算后再扩展三位数"
+  },
+  {
+    "from": "MA-3B-008",
+    "to": "MA-3B-009",
+    "strength": "必需",
+    "reason": "首位够除熟练后再学不够除"
+  },
+  {
+    "from": "MA-3B-009",
+    "to": "MA-3B-010",
+    "strength": "必需",
+    "reason": "不够除经验迁移到中间商0"
+  },
+  {
+    "from": "MA-3B-008",
+    "to": "MA-3B-011",
+    "strength": "必需",
+    "reason": "基本笔算后再处理末尾0"
+  },
+  {
+    "from": "MA-3B-010",
+    "to": "MA-3B-011",
+    "strength": "有帮助",
+    "reason": "0占位观念一致"
+  },
+  {
+    "from": "MA-3B-008",
+    "to": "MA-3B-012",
+    "strength": "必需",
+    "reason": "应用需要过关的笔算"
+  },
+  {
+    "from": "MA-3B-006",
+    "to": "MA-3B-012",
+    "strength": "有帮助",
+    "reason": "有时可先估再算"
+  },
+  {
+    "from": "MA-2B-007",
+    "to": "MA-3B-012",
+    "strength": "有帮助",
+    "reason": "进一去尾经验处理余数情境"
+  },
+  {
+    "from": "MA-1B-001",
+    "to": "MA-3B-013",
+    "strength": "必需",
+    "reason": "平面图形是多边形基础"
+  },
+  {
+    "from": "MA-3A-021",
+    "to": "MA-3B-013",
+    "strength": "有帮助",
+    "reason": "线段认识强化边的含义"
+  },
+  {
+    "from": "MA-3B-013",
+    "to": "MA-3B-014",
+    "strength": "必需",
+    "reason": "先认多边形再量其一周"
+  },
+  {
+    "from": "MA-2A-020",
+    "to": "MA-3B-014",
+    "strength": "必需",
+    "reason": "线段长度测量支持周长"
+  },
+  {
+    "from": "MA-3B-014",
+    "to": "MA-3B-015",
+    "strength": "必需",
+    "reason": "先理解一周再学公式"
+  },
+  {
+    "from": "MA-3B-015",
+    "to": "MA-3B-016",
+    "strength": "必需",
+    "reason": "公式熟练后才能解决情境题"
+  },
+  {
+    "from": "MA-3B-015",
+    "to": "MA-3B-017",
+    "strength": "必需",
+    "reason": "拼图周长变化建立在会算周长上"
+  },
+  {
+    "from": "MA-3B-016",
+    "to": "MA-3B-017",
+    "strength": "有帮助",
+    "reason": "应用经验帮助分析拼后路径"
+  },
+  {
+    "from": "MA-3B-014",
+    "to": "MA-3B-018",
+    "strength": "必需",
+    "reason": "先分清一周再引入面的大小"
+  },
+  {
+    "from": "MA-3B-018",
+    "to": "MA-3B-019",
+    "strength": "必需",
+    "reason": "先理解面积含义再引入单位"
+  },
+  {
+    "from": "MA-3A-007",
+    "to": "MA-3B-019",
+    "strength": "有帮助",
+    "reason": "长度单位感迁移到面积单位选择"
+  },
+  {
+    "from": "MA-3B-019",
+    "to": "MA-3B-020",
+    "strength": "必需",
+    "reason": "有单位才能用乘法算面积"
+  },
+  {
+    "from": "MA-3B-015",
+    "to": "MA-3B-020",
+    "strength": "有帮助",
+    "reason": "长宽概念在周长中已出现"
+  },
+  {
+    "from": "MA-3B-020",
+    "to": "MA-3B-021",
+    "strength": "必需",
+    "reason": "会算面积后理解进率更自然"
+  },
+  {
+    "from": "MA-2A-018",
+    "to": "MA-3B-021",
+    "strength": "有帮助",
+    "reason": "厘米分米进率支持面积进率推导"
+  },
+  {
+    "from": "MA-3B-020",
+    "to": "MA-3B-022",
+    "strength": "必需",
+    "reason": "应用建立在面积公式上"
+  },
+  {
+    "from": "MA-3B-015",
+    "to": "MA-3B-022",
+    "strength": "有帮助",
+    "reason": "对照周长应用防混淆"
+  },
+  {
+    "from": "MA-3B-021",
+    "to": "MA-3B-022",
+    "strength": "有帮助",
+    "reason": "换单位后的面积题需要进率"
+  },
+  {
+    "from": "MA-2A-001",
+    "to": "MA-3B-023",
+    "strength": "必需",
+    "reason": "分类计数是收集数据基础"
+  },
+  {
+    "from": "MA-3B-023",
+    "to": "MA-3B-024",
+    "strength": "必需",
+    "reason": "先有记录再填单式表"
+  },
+  {
+    "from": "MA-3B-024",
+    "to": "MA-3B-025",
+    "strength": "必需",
+    "reason": "先会单式再合并复式"
+  },
+  {
+    "from": "MA-3B-025",
+    "to": "MA-3B-026",
+    "strength": "必需",
+    "reason": "分段结果常用复式或单式呈现"
+  },
+  {
+    "from": "MA-3B-024",
+    "to": "MA-3B-026",
+    "strength": "有帮助",
+    "reason": "单式表也可承载分段结果"
+  },
+  {
+    "from": "MA-2B-001",
+    "to": "MA-3B-027",
+    "strength": "必需",
+    "reason": "时间顺序感支持认年月日"
+  },
+  {
+    "from": "MA-3B-027",
+    "to": "MA-3B-028",
+    "strength": "必需",
+    "reason": "先认各月天数再学二月平闰"
+  },
+  {
+    "from": "MA-2B-004",
+    "to": "MA-3B-028",
+    "strength": "有帮助",
+    "reason": "余数观念支持÷4判断"
+  },
+  {
+    "from": "MA-2B-001",
+    "to": "MA-3B-029",
+    "strength": "必需",
+    "reason": "整时认识是计时法互化基础"
+  },
+  {
+    "from": "MA-3B-029",
+    "to": "MA-3B-030",
+    "strength": "必需",
+    "reason": "先统一计时法再算经过时间"
+  },
+  {
+    "from": "MA-3B-027",
+    "to": "MA-3B-030",
+    "strength": "有帮助",
+    "reason": "跨日跨月要知各月天数"
+  },
+  {
+    "from": "MA-3A-025",
+    "to": "MA-3B-031",
+    "strength": "必需",
+    "reason": "几分之一支持十分之几与一位小数"
+  },
+  {
+    "from": "MA-1B-022",
+    "to": "MA-3B-031",
+    "strength": "有帮助",
+    "reason": "元角分是小数生活原型"
+  },
+  {
+    "from": "MA-3B-031",
+    "to": "MA-3B-032",
+    "strength": "必需",
+    "reason": "先会读写再比大小"
+  },
+  {
+    "from": "MA-3B-032",
+    "to": "MA-3B-033",
+    "strength": "必需",
+    "reason": "比大小巩固数位后再加减"
+  },
+  {
+    "from": "MA-3B-031",
+    "to": "MA-3B-033",
+    "strength": "有帮助",
+    "reason": "小数意义支持验算加减"
+  },
+  {
+    "from": "MA-2B-018",
+    "to": "MA-4A-001",
+    "strength": "必需",
+    "reason": "万与数位表是认识更高计数单位基础"
+  },
+  {
+    "from": "MA-2B-020",
+    "to": "MA-4A-001",
+    "strength": "有帮助",
+    "reason": "万以内读写经验迁移到分级"
+  },
+  {
+    "from": "MA-4A-001",
+    "to": "MA-4A-002",
+    "strength": "必需",
+    "reason": "先认数位再读数"
+  },
+  {
+    "from": "MA-2B-020",
+    "to": "MA-4A-002",
+    "strength": "有帮助",
+    "reason": "万以内读法规则可迁移"
+  },
+  {
+    "from": "MA-4A-002",
+    "to": "MA-4A-003",
+    "strength": "必需",
+    "reason": "会读才便于对照写"
+  },
+  {
+    "from": "MA-4A-001",
+    "to": "MA-4A-003",
+    "strength": "有帮助",
+    "reason": "数位表帮助0占位"
+  },
+  {
+    "from": "MA-4A-003",
+    "to": "MA-4A-004",
+    "strength": "必需",
+    "reason": "亿以内写法熟练后再扩亿级"
+  },
+  {
+    "from": "MA-4A-001",
+    "to": "MA-4A-004",
+    "strength": "有帮助",
+    "reason": "十进思想延伸到亿级"
+  },
+  {
+    "from": "MA-4A-002",
+    "to": "MA-4A-005",
+    "strength": "必需",
+    "reason": "会读大数才能有意义地比较"
+  },
+  {
+    "from": "MA-2B-021",
+    "to": "MA-4A-005",
+    "strength": "有帮助",
+    "reason": "万以内比大小规则可迁移"
+  },
+  {
+    "from": "MA-4A-003",
+    "to": "MA-4A-006",
+    "strength": "必需",
+    "reason": "会写整万整亿才能改写"
+  },
+  {
+    "from": "MA-4A-006",
+    "to": "MA-4A-007",
+    "strength": "必需",
+    "reason": "先分清改写再学近似"
+  },
+  {
+    "from": "MA-2B-022",
+    "to": "MA-4A-007",
+    "strength": "有帮助",
+    "reason": "近似数观念迁移到万以上"
+  },
+  {
+    "from": "MA-4A-004",
+    "to": "MA-4A-008",
+    "strength": "必需",
+    "reason": "先会读写亿再感受大小"
+  },
+  {
+    "from": "MA-4A-007",
+    "to": "MA-4A-008",
+    "strength": "有帮助",
+    "reason": "近似与估算活动相互支持"
+  },
+  {
+    "from": "MA-3A-023",
+    "to": "MA-4A-009",
+    "strength": "必需",
+    "reason": "角的初步认识是再认识基础"
+  },
+  {
+    "from": "MA-3A-021",
+    "to": "MA-4A-009",
+    "strength": "有帮助",
+    "reason": "射线概念支持角的定义"
+  },
+  {
+    "from": "MA-4A-009",
+    "to": "MA-4A-010",
+    "strength": "必需",
+    "reason": "先理解角再度量"
+  },
+  {
+    "from": "MA-3A-024",
+    "to": "MA-4A-010",
+    "strength": "有帮助",
+    "reason": "直角锐角钝角经验帮助估读"
+  },
+  {
+    "from": "MA-4A-010",
+    "to": "MA-4A-011",
+    "strength": "必需",
+    "reason": "能量角再认识平角周角度数"
+  },
+  {
+    "from": "MA-3A-024",
+    "to": "MA-4A-011",
+    "strength": "有帮助",
+    "reason": "直角是关系换算基准"
+  },
+  {
+    "from": "MA-4A-010",
+    "to": "MA-4A-012",
+    "strength": "必需",
+    "reason": "量角操作逆过来就是画角"
+  },
+  {
+    "from": "MA-4A-011",
+    "to": "MA-4A-012",
+    "strength": "有帮助",
+    "reason": "分类经验帮助检验所画角"
+  },
+  {
+    "from": "MA-3A-013",
+    "to": "MA-4A-013",
+    "strength": "必需",
+    "reason": "整十乘一位数口算是基础"
+  },
+  {
+    "from": "MA-3A-014",
+    "to": "MA-4A-014",
+    "strength": "必需",
+    "reason": "乘一位数竖式迁移到乘两位数"
+  },
+  {
+    "from": "MA-4A-013",
+    "to": "MA-4A-014",
+    "strength": "有帮助",
+    "reason": "整十乘帮助理解部分积移位"
+  },
+  {
+    "from": "MA-4A-014",
+    "to": "MA-4A-015",
+    "strength": "必需",
+    "reason": "先会不进位再处理进位"
+  },
+  {
+    "from": "MA-3A-016",
+    "to": "MA-4A-015",
+    "strength": "有帮助",
+    "reason": "连续进位经验可迁移"
+  },
+  {
+    "from": "MA-4A-015",
+    "to": "MA-4A-016",
+    "strength": "必需",
+    "reason": "进位笔算熟练后再处理中间0"
+  },
+  {
+    "from": "MA-3A-017",
+    "to": "MA-4A-016",
+    "strength": "有帮助",
+    "reason": "含0乘一位数经验可迁移"
+  },
+  {
+    "from": "MA-4A-015",
+    "to": "MA-4A-017",
+    "strength": "必需",
+    "reason": "笔算结构清楚后再学末尾0简便"
+  },
+  {
+    "from": "MA-4A-013",
+    "to": "MA-4A-017",
+    "strength": "有帮助",
+    "reason": "×整十口算支持末尾补0"
+  },
+  {
+    "from": "MA-4A-015",
+    "to": "MA-4A-018",
+    "strength": "必需",
+    "reason": "有具体乘算经验才悟规律"
+  },
+  {
+    "from": "MA-4A-013",
+    "to": "MA-4A-018",
+    "strength": "有帮助",
+    "reason": "×10现象是规律直观例子"
+  },
+  {
+    "from": "MA-4A-013",
+    "to": "MA-4A-019",
+    "strength": "必需",
+    "reason": "口算整十是估算工具"
+  },
+  {
+    "from": "MA-4A-015",
+    "to": "MA-4A-020",
+    "strength": "必需",
+    "reason": "应用建立在会笔算上"
+  },
+  {
+    "from": "MA-4A-019",
+    "to": "MA-4A-020",
+    "strength": "有帮助",
+    "reason": "估算可检查应用题结果"
+  },
+  {
+    "from": "MA-2A-010",
+    "to": "MA-4A-020",
+    "strength": "有帮助",
+    "reason": "表内乘法应用经验可迁移"
+  },
+  {
+    "from": "MA-2B-030",
+    "to": "MA-4A-021",
+    "strength": "必需",
+    "reason": "加减解决问题支撑总量分量"
+  },
+  {
+    "from": "MA-4A-021",
+    "to": "MA-4A-022",
+    "strength": "必需",
+    "reason": "先建立合分模型再学乘法模型"
+  },
+  {
+    "from": "MA-2A-010",
+    "to": "MA-4A-022",
+    "strength": "有帮助",
+    "reason": "购物乘法经验直接对接"
+  },
+  {
+    "from": "MA-4A-022",
+    "to": "MA-4A-023",
+    "strength": "必需",
+    "reason": "同类乘法模型迁移到路程"
+  },
+  {
+    "from": "MA-4A-020",
+    "to": "MA-4A-023",
+    "strength": "有帮助",
+    "reason": "乘两位数计算支撑路程题"
+  },
+  {
+    "from": "MA-3A-024",
+    "to": "MA-4A-024",
+    "strength": "必需",
+    "reason": "直角是垂直的核心"
+  },
+  {
+    "from": "MA-3A-021",
+    "to": "MA-4A-024",
+    "strength": "有帮助",
+    "reason": "直线概念支持相交讨论"
+  },
+  {
+    "from": "MA-4A-024",
+    "to": "MA-4A-025",
+    "strength": "必需",
+    "reason": "先理解相交特殊情况再学不相交"
+  },
+  {
+    "from": "MA-3A-021",
+    "to": "MA-4A-025",
+    "strength": "有帮助",
+    "reason": "直线可延长是判断平行前提"
+  },
+  {
+    "from": "MA-4A-024",
+    "to": "MA-4A-026",
+    "strength": "必需",
+    "reason": "理解垂直才能画垂线"
+  },
+  {
+    "from": "MA-4A-025",
+    "to": "MA-4A-027",
+    "strength": "必需",
+    "reason": "理解平行才能画平行线"
+  },
+  {
+    "from": "MA-4A-026",
+    "to": "MA-4A-027",
+    "strength": "有帮助",
+    "reason": "三角板操作经验可迁移"
+  },
+  {
+    "from": "MA-4A-025",
+    "to": "MA-4A-028",
+    "strength": "必需",
+    "reason": "平行是平行四边形定义核心"
+  },
+  {
+    "from": "MA-3B-013",
+    "to": "MA-4A-028",
+    "strength": "有帮助",
+    "reason": "多边形认识支持四边形分类"
+  },
+  {
+    "from": "MA-4A-028",
+    "to": "MA-4A-029",
+    "strength": "必需",
+    "reason": "对照平行四边形才能突出「只有一组」"
+  },
+  {
+    "from": "MA-4A-025",
+    "to": "MA-4A-029",
+    "strength": "有帮助",
+    "reason": "平行判定用于认梯形"
+  },
+  {
+    "from": "MA-3B-024",
+    "to": "MA-4A-030",
+    "strength": "必需",
+    "reason": "单式统计表是条形图数据来源"
+  },
+  {
+    "from": "MA-3B-023",
+    "to": "MA-4A-030",
+    "strength": "有帮助",
+    "reason": "收集数据经验支持制图"
+  },
+  {
+    "from": "MA-4A-030",
+    "to": "MA-4A-031",
+    "strength": "必需",
+    "reason": "先会单式再读复式"
+  },
+  {
+    "from": "MA-3B-025",
+    "to": "MA-4A-031",
+    "strength": "有帮助",
+    "reason": "复式表对照经验可迁移"
+  },
+  {
+    "from": "MA-4A-031",
+    "to": "MA-4A-032",
+    "strength": "必需",
+    "reason": "会读复式图再做分析"
+  },
+  {
+    "from": "MA-4A-030",
+    "to": "MA-4A-032",
+    "strength": "有帮助",
+    "reason": "单式图也可做简单分析"
+  },
+  {
+    "from": "MA-2B-026",
+    "to": "MA-4B-001",
+    "strength": "必需",
+    "reason": "万以内加减是理解加减各部分关系的基础"
+  },
+  {
+    "from": "MA-2A-020",
+    "to": "MA-4B-001",
+    "strength": "有帮助",
+    "reason": "加减互逆经验可迁移"
+  },
+  {
+    "from": "MA-2A-010",
+    "to": "MA-4B-002",
+    "strength": "必需",
+    "reason": "乘法意义是理解因数积关系的基础"
+  },
+  {
+    "from": "MA-2A-015",
+    "to": "MA-4B-002",
+    "strength": "有帮助",
+    "reason": "除法意义支持乘除互逆"
+  },
+  {
+    "from": "MA-4B-002",
+    "to": "MA-4B-003",
+    "strength": "必需",
+    "reason": "先懂乘除意义再谈 0 的运算约定"
+  },
+  {
+    "from": "MA-4B-001",
+    "to": "MA-4B-003",
+    "strength": "有帮助",
+    "reason": "加减中与 0 的规则可对照"
+  },
+  {
+    "from": "MA-3A-005",
+    "to": "MA-4B-004",
+    "strength": "必需",
+    "reason": "小括号混合运算是中括号的直接基础"
+  },
+  {
+    "from": "MA-3A-004",
+    "to": "MA-4B-004",
+    "strength": "有帮助",
+    "reason": "四则顺序支持括号外运算"
+  },
+  {
+    "from": "MA-4B-004",
+    "to": "MA-4B-005",
+    "strength": "必需",
+    "reason": "会含括号运算才能列综合算式"
+  },
+  {
+    "from": "MA-4B-002",
+    "to": "MA-4B-005",
+    "strength": "有帮助",
+    "reason": "乘除关系帮助理解份数问题"
+  },
+  {
+    "from": "MA-3A-002",
+    "to": "MA-4B-006",
+    "strength": "必需",
+    "reason": "不同位置观察经验迁移到三视图"
+  },
+  {
+    "from": "MA-3A-001",
+    "to": "MA-4B-006",
+    "strength": "有帮助",
+    "reason": "单位置观察是起点"
+  },
+  {
+    "from": "MA-4B-006",
+    "to": "MA-4B-007",
+    "strength": "必需",
+    "reason": "先会分方向看再还原立体"
+  },
+  {
+    "from": "MA-1A-020",
+    "to": "MA-4B-007",
+    "strength": "有帮助",
+    "reason": "小正方体直观经验有帮助"
+  },
+  {
+    "from": "MA-2B-026",
+    "to": "MA-4B-008",
+    "strength": "必需",
+    "reason": "熟练加法才能抽象交换律"
+  },
+  {
+    "from": "MA-4B-008",
+    "to": "MA-4B-009",
+    "strength": "必需",
+    "reason": "先会交换再学结合更顺"
+  },
+  {
+    "from": "MA-4B-009",
+    "to": "MA-4B-010",
+    "strength": "必需",
+    "reason": "简便计算用到结合律"
+  },
+  {
+    "from": "MA-4B-008",
+    "to": "MA-4B-010",
+    "strength": "有帮助",
+    "reason": "交换律常配合结合做简便"
+  },
+  {
+    "from": "MA-4B-001",
+    "to": "MA-4B-011",
+    "strength": "必需",
+    "reason": "加减各部分关系支持理解连减性质"
+  },
+  {
+    "from": "MA-4B-010",
+    "to": "MA-4B-011",
+    "strength": "有帮助",
+    "reason": "简便意识可迁移到连减"
+  },
+  {
+    "from": "MA-4B-002",
+    "to": "MA-4B-012",
+    "strength": "必需",
+    "reason": "乘除意义支持抽象乘法交换律"
+  },
+  {
+    "from": "MA-4B-012",
+    "to": "MA-4B-013",
+    "strength": "必需",
+    "reason": "先会交换再学结合"
+  },
+  {
+    "from": "MA-4B-012",
+    "to": "MA-4B-014",
+    "strength": "有帮助",
+    "reason": "交换意识帮助变形"
+  },
+  {
+    "from": "MA-4B-002",
+    "to": "MA-4B-014",
+    "strength": "必需",
+    "reason": "乘法意义是理解分配律的基础"
+  },
+  {
+    "from": "MA-4B-013",
+    "to": "MA-4B-015",
+    "strength": "必需",
+    "reason": "结合律常用于乘法简便"
+  },
+  {
+    "from": "MA-4B-014",
+    "to": "MA-4B-015",
+    "strength": "必需",
+    "reason": "分配律常用于乘法简便"
+  },
+  {
+    "from": "MA-4B-012",
+    "to": "MA-4B-015",
+    "strength": "有帮助",
+    "reason": "交换律也常参与简便"
+  },
+  {
+    "from": "MA-4B-015",
+    "to": "MA-4B-016",
+    "strength": "必需",
+    "reason": "会用律简便再进入问题解决"
+  },
+  {
+    "from": "MA-4B-010",
+    "to": "MA-4B-016",
+    "strength": "有帮助",
+    "reason": "加法简便经验可对照"
+  },
+  {
+    "from": "MA-3B-031",
+    "to": "MA-4B-017",
+    "strength": "必需",
+    "reason": "初步认识小数是深化意义的基础"
+  },
+  {
+    "from": "MA-3B-020",
+    "to": "MA-4B-017",
+    "strength": "有帮助",
+    "reason": "分数初步帮助理解十分之几"
+  },
+  {
+    "from": "MA-4B-017",
+    "to": "MA-4B-018",
+    "strength": "必需",
+    "reason": "先懂数位意义再读写"
+  },
+  {
+    "from": "MA-4B-018",
+    "to": "MA-4B-019",
+    "strength": "必需",
+    "reason": "会读写再谈末尾 0 的性质"
+  },
+  {
+    "from": "MA-3B-032",
+    "to": "MA-4B-020",
+    "strength": "必需",
+    "reason": "简单小数比较是多位比较基础"
+  },
+  {
+    "from": "MA-4B-019",
+    "to": "MA-4B-020",
+    "strength": "有帮助",
+    "reason": "性质帮助补 0 对齐比较"
+  },
+  {
+    "from": "MA-4B-017",
+    "to": "MA-4B-021",
+    "strength": "必需",
+    "reason": "数位十进是理解移动倍数的基础"
+  },
+  {
+    "from": "MA-4B-021",
+    "to": "MA-4B-022",
+    "strength": "必需",
+    "reason": "先会移动规律再解题"
+  },
+  {
+    "from": "MA-4B-021",
+    "to": "MA-4B-023",
+    "strength": "必需",
+    "reason": "单位换算常用小数点移动"
+  },
+  {
+    "from": "MA-3B-010",
+    "to": "MA-4B-023",
+    "strength": "有帮助",
+    "reason": "长度单位经验支持换算"
+  },
+  {
+    "from": "MA-4A-007",
+    "to": "MA-4B-024",
+    "strength": "必需",
+    "reason": "整数四舍五入经验迁移到小数"
+  },
+  {
+    "from": "MA-4B-018",
+    "to": "MA-4B-024",
+    "strength": "有帮助",
+    "reason": "读写数位帮助定位保留位"
+  },
+  {
+    "from": "MA-3A-023",
+    "to": "MA-4B-025",
+    "strength": "必需",
+    "reason": "角的认识支持理解三角形的角"
+  },
+  {
+    "from": "MA-1B-001",
+    "to": "MA-4B-025",
+    "strength": "有帮助",
+    "reason": "平面图形直观经验"
+  },
+  {
+    "from": "MA-4B-025",
+    "to": "MA-4B-026",
+    "strength": "必需",
+    "reason": "先认识三角形再谈特性"
+  },
+  {
+    "from": "MA-4A-024",
+    "to": "MA-4B-026",
+    "strength": "必需",
+    "reason": "垂线是理解高的基础"
+  },
+  {
+    "from": "MA-4B-025",
+    "to": "MA-4B-027",
+    "strength": "必需",
+    "reason": "先认识再研究三边关系"
+  },
+  {
+    "from": "MA-4B-025",
+    "to": "MA-4B-028",
+    "strength": "必需",
+    "reason": "先认识再分类"
+  },
+  {
+    "from": "MA-3A-024",
+    "to": "MA-4B-028",
+    "strength": "必需",
+    "reason": "锐角直角钝角是按角分类基础"
+  },
+  {
+    "from": "MA-4B-025",
+    "to": "MA-4B-029",
+    "strength": "必需",
+    "reason": "先认识三角形再研究内角和"
+  },
+  {
+    "from": "MA-4A-011",
+    "to": "MA-4B-029",
+    "strength": "必需",
+    "reason": "平角 180° 支撑内角和结论"
+  },
+  {
+    "from": "MA-4A-010",
+    "to": "MA-4B-029",
+    "strength": "有帮助",
+    "reason": "量角经验支持验证"
+  },
+  {
+    "from": "MA-3B-033",
+    "to": "MA-4B-030",
+    "strength": "必需",
+    "reason": "简单小数加减过渡到笔算"
+  },
+  {
+    "from": "MA-4B-019",
+    "to": "MA-4B-030",
+    "strength": "有帮助",
+    "reason": "性质支持补 0 对齐"
+  },
+  {
+    "from": "MA-4B-030",
+    "to": "MA-4B-031",
+    "strength": "必需",
+    "reason": "先会笔算再混合"
+  },
+  {
+    "from": "MA-4B-004",
+    "to": "MA-4B-031",
+    "strength": "有帮助",
+    "reason": "括号顺序可迁移"
+  },
+  {
+    "from": "MA-4B-010",
+    "to": "MA-4B-032",
+    "strength": "必需",
+    "reason": "整数加法运算律应用是推广前提"
+  },
+  {
+    "from": "MA-4B-030",
+    "to": "MA-4B-032",
+    "strength": "必需",
+    "reason": "会小数加法才能在小数中用律"
+  },
+  {
+    "from": "MA-3B-001",
+    "to": "MA-4B-033",
+    "strength": "必需",
+    "reason": "轴对称初步是再认识基础"
+  },
+  {
+    "from": "MA-3B-002",
+    "to": "MA-4B-034",
+    "strength": "必需",
+    "reason": "平移初步是再认识与作图基础"
+  },
+  {
+    "from": "MA-4B-033",
+    "to": "MA-4B-034",
+    "strength": "有帮助",
+    "reason": "运动变换对照有助于区分"
+  },
+  {
+    "from": "MA-2A-015",
+    "to": "MA-4B-035",
+    "strength": "必需",
+    "reason": "除法是求平均数的计算基础"
+  },
+  {
+    "from": "MA-3B-024",
+    "to": "MA-4B-035",
+    "strength": "有帮助",
+    "reason": "统计表经验帮助理解一组数据"
+  },
+  {
+    "from": "MA-4B-035",
+    "to": "MA-4B-036",
+    "strength": "必需",
+    "reason": "先会求平均数再作比较"
+  },
+  {
+    "from": "MA-4A-031",
+    "to": "MA-4B-037",
+    "strength": "必需",
+    "reason": "先会读复式条形图再综合应用"
+  },
+  {
+    "from": "MA-4B-035",
+    "to": "MA-4B-037",
+    "strength": "有帮助",
+    "reason": "平均数可结合图中数据求"
+  },
+  {
+    "from": "MA-4B-005",
+    "to": "MA-4B-038",
+    "strength": "必需",
+    "reason": "综合算式与两步思考支持假设法"
+  },
+  {
+    "from": "MA-3A-003",
+    "to": "MA-4B-038",
+    "strength": "有帮助",
+    "reason": "乘加混合支持脚数计算"
+  },
+  {
+    "from": "MA-4B-006",
+    "to": "MA-5A-001",
+    "strength": "必需",
+    "reason": "三视图观察经验是组合体观察基础"
+  },
+  {
+    "from": "MA-4B-007",
+    "to": "MA-5A-001",
+    "strength": "有帮助",
+    "reason": "还原经验帮助理解视图差异"
+  },
+  {
+    "from": "MA-5A-001",
+    "to": "MA-5A-002",
+    "strength": "必需",
+    "reason": "先会画三视图再根据视图想象"
+  },
+  {
+    "from": "MA-4B-007",
+    "to": "MA-5A-002",
+    "strength": "有帮助",
+    "reason": "四下还原经验可迁移"
+  },
+  {
+    "from": "MA-4B-017",
+    "to": "MA-5A-003",
+    "strength": "必需",
+    "reason": "小数意义支持小数乘法"
+  },
+  {
+    "from": "MA-3A-012",
+    "to": "MA-5A-003",
+    "strength": "有帮助",
+    "reason": "多位数乘一位数笔算经验可迁移"
+  },
+  {
+    "from": "MA-5A-003",
+    "to": "MA-5A-004",
+    "strength": "必需",
+    "reason": "先会小数乘整数再学小数乘小数"
+  },
+  {
+    "from": "MA-5A-004",
+    "to": "MA-5A-005",
+    "strength": "必需",
+    "reason": "先会计算再抽象位数规律"
+  },
+  {
+    "from": "MA-5A-004",
+    "to": "MA-5A-006",
+    "strength": "必需",
+    "reason": "先有积再谈近似"
+  },
+  {
+    "from": "MA-4B-024",
+    "to": "MA-5A-006",
+    "strength": "有帮助",
+    "reason": "小数近似数经验可迁移"
+  },
+  {
+    "from": "MA-4B-015",
+    "to": "MA-5A-007",
+    "strength": "必需",
+    "reason": "整数乘法运算律简便是推广前提"
+  },
+  {
+    "from": "MA-5A-004",
+    "to": "MA-5A-007",
+    "strength": "必需",
+    "reason": "会小数乘法才能在小数中用律"
+  },
+  {
+    "from": "MA-5A-004",
+    "to": "MA-5A-008",
+    "strength": "必需",
+    "reason": "会算小数乘才能解决乘法问题"
+  },
+  {
+    "from": "MA-5A-006",
+    "to": "MA-5A-008",
+    "strength": "有帮助",
+    "reason": "钱款等问题常用积的近似"
+  },
+  {
+    "from": "MA-5A-003",
+    "to": "MA-5A-009",
+    "strength": "必需",
+    "reason": "小数乘整数与除法互逆支撑"
+  },
+  {
+    "from": "MA-2A-015",
+    "to": "MA-5A-009",
+    "strength": "有帮助",
+    "reason": "除法意义支持平均分"
+  },
+  {
+    "from": "MA-5A-009",
+    "to": "MA-5A-010",
+    "strength": "必需",
+    "reason": "先会除数是整数再扩展到除数是小数"
+  },
+  {
+    "from": "MA-5A-010",
+    "to": "MA-5A-011",
+    "strength": "必需",
+    "reason": "先会除再谈商的近似"
+  },
+  {
+    "from": "MA-5A-006",
+    "to": "MA-5A-011",
+    "strength": "有帮助",
+    "reason": "积的近似经验可类比商"
+  },
+  {
+    "from": "MA-5A-009",
+    "to": "MA-5A-012",
+    "strength": "必需",
+    "reason": "除法竖式多除几位才能观察循环"
+  },
+  {
+    "from": "MA-5A-010",
+    "to": "MA-5A-013",
+    "strength": "必需",
+    "reason": "会除以小数再解决除法问题"
+  },
+  {
+    "from": "MA-5A-011",
+    "to": "MA-5A-013",
+    "strength": "有帮助",
+    "reason": "实际问题常需商的近似"
+  },
+  {
+    "from": "MA-4B-033",
+    "to": "MA-5A-014",
+    "strength": "必需",
+    "reason": "轴对称再认识是作图基础"
+  },
+  {
+    "from": "MA-4B-034",
+    "to": "MA-5A-015",
+    "strength": "必需",
+    "reason": "平移再认识是作图基础"
+  },
+  {
+    "from": "MA-3B-003",
+    "to": "MA-5A-016",
+    "strength": "必需",
+    "reason": "旋转初步是再认识与作图基础"
+  },
+  {
+    "from": "MA-5A-014",
+    "to": "MA-5A-017",
+    "strength": "必需",
+    "reason": "会轴对称作图才能综合设计"
+  },
+  {
+    "from": "MA-5A-015",
+    "to": "MA-5A-017",
+    "strength": "有帮助",
+    "reason": "平移可参与图案"
+  },
+  {
+    "from": "MA-5A-016",
+    "to": "MA-5A-017",
+    "strength": "有帮助",
+    "reason": "旋转可参与图案"
+  },
+  {
+    "from": "MA-4B-008",
+    "to": "MA-5A-018",
+    "strength": "有帮助",
+    "reason": "具体运算律经验帮助接受字母概括"
+  },
+  {
+    "from": "MA-5A-018",
+    "to": "MA-5A-019",
+    "strength": "必需",
+    "reason": "先会字母表示数再写律与公式"
+  },
+  {
+    "from": "MA-4B-015",
+    "to": "MA-5A-019",
+    "strength": "有帮助",
+    "reason": "运算律具体形式支持字母化"
+  },
+  {
+    "from": "MA-5A-018",
+    "to": "MA-5A-020",
+    "strength": "必需",
+    "reason": "先会字母表示数再表示关系"
+  },
+  {
+    "from": "MA-5A-018",
+    "to": "MA-5A-021",
+    "strength": "必需",
+    "reason": "先会字母再代入求值"
+  },
+  {
+    "from": "MA-5A-020",
+    "to": "MA-5A-021",
+    "strength": "有帮助",
+    "reason": "数量关系式常需求值"
+  },
+  {
+    "from": "MA-5A-018",
+    "to": "MA-5A-022",
+    "strength": "必需",
+    "reason": "字母表示支持概括百数表规律"
+  },
+  {
+    "from": "MA-4A-002",
+    "to": "MA-5A-022",
+    "strength": "有帮助",
+    "reason": "大数与数位经验帮助读表"
+  },
+  {
+    "from": "MA-4A-028",
+    "to": "MA-5A-023",
+    "strength": "必需",
+    "reason": "先认识平行四边形再求面积"
+  },
+  {
+    "from": "MA-3B-020",
+    "to": "MA-5A-023",
+    "strength": "必需",
+    "reason": "长方形面积是剪拼理解基础"
+  },
+  {
+    "from": "MA-5A-023",
+    "to": "MA-5A-024",
+    "strength": "必需",
+    "reason": "平行四边形面积支撑三角形面积"
+  },
+  {
+    "from": "MA-4B-026",
+    "to": "MA-5A-024",
+    "strength": "必需",
+    "reason": "三角形高的认识是面积前提"
+  },
+  {
+    "from": "MA-4A-029",
+    "to": "MA-5A-025",
+    "strength": "必需",
+    "reason": "先认识梯形再求面积"
+  },
+  {
+    "from": "MA-5A-023",
+    "to": "MA-5A-025",
+    "strength": "必需",
+    "reason": "拼成平行四边形思路依赖其面积"
+  },
+  {
+    "from": "MA-5A-024",
+    "to": "MA-5A-026",
+    "strength": "必需",
+    "reason": "组合常含三角形"
+  },
+  {
+    "from": "MA-5A-023",
+    "to": "MA-5A-026",
+    "strength": "有帮助",
+    "reason": "组合常含平行四边形"
+  },
+  {
+    "from": "MA-5A-025",
+    "to": "MA-5A-026",
+    "strength": "有帮助",
+    "reason": "组合常含梯形"
+  },
+  {
+    "from": "MA-5A-026",
+    "to": "MA-5A-027",
+    "strength": "必需",
+    "reason": "组合面积方法迁移到格点多边形"
+  },
+  {
+    "from": "MA-3B-019",
+    "to": "MA-5A-027",
+    "strength": "有帮助",
+    "reason": "面积单位与数格经验有帮助"
+  },
+  {
+    "from": "MA-4A-028",
+    "to": "MA-5A-028",
+    "strength": "有帮助",
+    "reason": "平行四边形易密铺的直观"
+  },
+  {
+    "from": "MA-1B-001",
+    "to": "MA-5A-028",
+    "strength": "必需",
+    "reason": "平面图形直观是密铺基础"
+  },
+  {
+    "from": "MA-5A-028",
+    "to": "MA-5A-029",
+    "strength": "必需",
+    "reason": "先认识密铺再设计"
+  },
+  {
+    "from": "MA-5A-015",
+    "to": "MA-5A-029",
+    "strength": "有帮助",
+    "reason": "平移是常见密铺手法"
+  },
+  {
+    "from": "MA-3B-024",
+    "to": "MA-5A-030",
+    "strength": "有帮助",
+    "reason": "统计分类经验帮助事件归类"
+  },
+  {
+    "from": "MA-5A-030",
+    "to": "MA-5A-031",
+    "strength": "必需",
+    "reason": "先分三类再比较大小"
+  },
+  {
+    "from": "MA-5A-031",
+    "to": "MA-5A-032",
+    "strength": "必需",
+    "reason": "先会比较大小再谈等可能与公平"
+  },
+  {
+    "from": "MA-2A-015",
+    "to": "MA-5A-033",
+    "strength": "必需",
+    "reason": "除法求间隔数"
+  },
+  {
+    "from": "MA-3A-003",
+    "to": "MA-5A-033",
+    "strength": "有帮助",
+    "reason": "乘加混合支持验算"
+  },
+  {
+    "from": "MA-5A-033",
+    "to": "MA-5A-034",
+    "strength": "必需",
+    "reason": "先会两端都栽再对比两端不栽"
+  },
+  {
+    "from": "MA-5A-033",
+    "to": "MA-5A-035",
+    "strength": "必需",
+    "reason": "先会直线模型再对比封闭"
+  },
+  {
+    "from": "MA-5A-034",
+    "to": "MA-5A-035",
+    "strength": "有帮助",
+    "reason": "端点条件对照帮助理解封闭"
+  },
+  {
+    "from": "MA-5A-001",
+    "to": "MA-5B-001",
+    "strength": "必需",
+    "reason": "先会画看三视图再理解单方向歧义"
+  },
+  {
+    "from": "MA-5A-002",
+    "to": "MA-5B-001",
+    "strength": "有帮助",
+    "reason": "三视图想象经验对照单方向不足"
+  },
+  {
+    "from": "MA-5B-001",
+    "to": "MA-5B-002",
+    "strength": "必需",
+    "reason": "先知单方向有多种可能再谈三方向确定"
+  },
+  {
+    "from": "MA-5A-002",
+    "to": "MA-5B-002",
+    "strength": "必需",
+    "reason": "五上三视图想象直接支撑"
+  },
+  {
+    "from": "MA-2B-003",
+    "to": "MA-5B-003",
+    "strength": "必需",
+    "reason": "整除与余数是因数倍数前提"
+  },
+  {
+    "from": "MA-5B-003",
+    "to": "MA-5B-004",
+    "strength": "必需",
+    "reason": "先认识再找因数"
+  },
+  {
+    "from": "MA-5B-003",
+    "to": "MA-5B-005",
+    "strength": "必需",
+    "reason": "先认识再找倍数"
+  },
+  {
+    "from": "MA-5B-004",
+    "to": "MA-5B-005",
+    "strength": "有帮助",
+    "reason": "因数有限对照倍数无限"
+  },
+  {
+    "from": "MA-5B-005",
+    "to": "MA-5B-006",
+    "strength": "必需",
+    "reason": "先会倍数再认 2、5 特征"
+  },
+  {
+    "from": "MA-5B-006",
+    "to": "MA-5B-007",
+    "strength": "必需",
+    "reason": "先会看个位特征再对比 3 的各位和"
+  },
+  {
+    "from": "MA-5B-004",
+    "to": "MA-5B-008",
+    "strength": "必需",
+    "reason": "找因数是判断质合基础"
+  },
+  {
+    "from": "MA-5B-006",
+    "to": "MA-5B-009",
+    "strength": "必需",
+    "reason": "偶数即 2 的倍数支撑奇偶和"
+  },
+  {
+    "from": "MA-5B-008",
+    "to": "MA-5B-009",
+    "strength": "有帮助",
+    "reason": "对奇数偶数分类经验有帮助"
+  },
+  {
+    "from": "MA-1A-010",
+    "to": "MA-5B-010",
+    "strength": "必需",
+    "reason": "直观认识长方体是基础"
+  },
+  {
+    "from": "MA-5B-010",
+    "to": "MA-5B-011",
+    "strength": "必需",
+    "reason": "先会长方体再谈特殊正方体"
+  },
+  {
+    "from": "MA-5B-010",
+    "to": "MA-5B-012",
+    "strength": "必需",
+    "reason": "认识面棱后才能算表面积"
+  },
+  {
+    "from": "MA-3B-020",
+    "to": "MA-5B-012",
+    "strength": "必需",
+    "reason": "长方形面积是表面积基础"
+  },
+  {
+    "from": "MA-3B-018",
+    "to": "MA-5B-013",
+    "strength": "必需",
+    "reason": "面积含义对照体积含义"
+  },
+  {
+    "from": "MA-5B-013",
+    "to": "MA-5B-014",
+    "strength": "必需",
+    "reason": "先理解体积再套公式"
+  },
+  {
+    "from": "MA-5B-010",
+    "to": "MA-5B-014",
+    "strength": "必需",
+    "reason": "长宽高概念支撑体积计算"
+  },
+  {
+    "from": "MA-5B-014",
+    "to": "MA-5B-015",
+    "strength": "必需",
+    "reason": "先会算体积再理解进率"
+  },
+  {
+    "from": "MA-5B-015",
+    "to": "MA-5B-016",
+    "strength": "必需",
+    "reason": "体积单位进率支撑升毫升换算"
+  },
+  {
+    "from": "MA-5B-014",
+    "to": "MA-5B-016",
+    "strength": "有帮助",
+    "reason": "容器内部仍按体积算"
+  },
+  {
+    "from": "MA-5B-016",
+    "to": "MA-5B-017",
+    "strength": "必需",
+    "reason": "容积与水位差测不规则体积"
+  },
+  {
+    "from": "MA-5B-012",
+    "to": "MA-5B-018",
+    "strength": "有帮助",
+    "reason": "表面积经验服务拼搭探究"
+  },
+  {
+    "from": "MA-5B-014",
+    "to": "MA-5B-018",
+    "strength": "必需",
+    "reason": "体积块数经验服务探索图形"
+  },
+  {
+    "from": "MA-3A-026",
+    "to": "MA-5B-019",
+    "strength": "必需",
+    "reason": "几分之几支撑分数意义再认识"
+  },
+  {
+    "from": "MA-5B-019",
+    "to": "MA-5B-020",
+    "strength": "必需",
+    "reason": "分数意义支撑与除法联系"
+  },
+  {
+    "from": "MA-5B-019",
+    "to": "MA-5B-021",
+    "strength": "必需",
+    "reason": "意义支撑真假分数判断"
+  },
+  {
+    "from": "MA-5B-019",
+    "to": "MA-5B-022",
+    "strength": "必需",
+    "reason": "意义支撑基本性质"
+  },
+  {
+    "from": "MA-5B-004",
+    "to": "MA-5B-023",
+    "strength": "必需",
+    "reason": "找因数是最大公因数基础"
+  },
+  {
+    "from": "MA-5B-022",
+    "to": "MA-5B-024",
+    "strength": "必需",
+    "reason": "基本性质是约分依据"
+  },
+  {
+    "from": "MA-5B-023",
+    "to": "MA-5B-024",
+    "strength": "必需",
+    "reason": "最大公因数帮助约到最简"
+  },
+  {
+    "from": "MA-5B-005",
+    "to": "MA-5B-025",
+    "strength": "必需",
+    "reason": "找倍数是最小公倍数基础"
+  },
+  {
+    "from": "MA-5B-025",
+    "to": "MA-5B-026",
+    "strength": "必需",
+    "reason": "最小公倍数作通分公分母"
+  },
+  {
+    "from": "MA-5B-022",
+    "to": "MA-5B-026",
+    "strength": "必需",
+    "reason": "基本性质支撑通分同乘"
+  },
+  {
+    "from": "MA-5B-020",
+    "to": "MA-5B-027",
+    "strength": "必需",
+    "reason": "分数与除法支撑分数化小数"
+  },
+  {
+    "from": "MA-4B-017",
+    "to": "MA-5B-027",
+    "strength": "有帮助",
+    "reason": "小数意义帮助小数化分数"
+  },
+  {
+    "from": "MA-5A-012",
+    "to": "MA-5B-027",
+    "strength": "有帮助",
+    "reason": "循环小数现象对照"
+  },
+  {
+    "from": "MA-5A-016",
+    "to": "MA-5B-028",
+    "strength": "必需",
+    "reason": "旋转再认识支撑三要素"
+  },
+  {
+    "from": "MA-5B-028",
+    "to": "MA-5B-029",
+    "strength": "必需",
+    "reason": "三要素是作图前提"
+  },
+  {
+    "from": "MA-5B-029",
+    "to": "MA-5B-030",
+    "strength": "必需",
+    "reason": "作图经验迁移到问题解决"
+  },
+  {
+    "from": "MA-3A-028",
+    "to": "MA-5B-031",
+    "strength": "必需",
+    "reason": "同分母加减初步支撑再学习"
+  },
+  {
+    "from": "MA-5B-024",
+    "to": "MA-5B-031",
+    "strength": "必需",
+    "reason": "约分要求进入结果整理"
+  },
+  {
+    "from": "MA-5B-026",
+    "to": "MA-5B-032",
+    "strength": "必需",
+    "reason": "通分是异分母加减前提"
+  },
+  {
+    "from": "MA-5B-031",
+    "to": "MA-5B-032",
+    "strength": "必需",
+    "reason": "同分母方法在通分后使用"
+  },
+  {
+    "from": "MA-5B-032",
+    "to": "MA-5B-033",
+    "strength": "必需",
+    "reason": "异分母加减支撑混合运算"
+  },
+  {
+    "from": "MA-5B-033",
+    "to": "MA-5B-034",
+    "strength": "必需",
+    "reason": "计算过关再解决问题"
+  },
+  {
+    "from": "MA-5B-005",
+    "to": "MA-5B-035",
+    "strength": "必需",
+    "reason": "倍数倍增是通知模型的计算基础"
+  },
+  {
+    "from": "MA-5B-034",
+    "to": "MA-5B-035",
+    "strength": "有帮助",
+    "reason": "本单元问题解决经验"
+  },
+  {
+    "from": "MA-4A-030",
+    "to": "MA-5B-036",
+    "strength": "必需",
+    "reason": "条形图读图经验迁移折线"
+  },
+  {
+    "from": "MA-5B-036",
+    "to": "MA-5B-037",
+    "strength": "必需",
+    "reason": "单式折线支撑复式比较"
+  },
+  {
+    "from": "MA-4A-031",
+    "to": "MA-5B-037",
+    "strength": "有帮助",
+    "reason": "复式条形图例经验"
+  },
+  {
+    "from": "MA-5B-038",
+    "to": "MA-5B-039",
+    "strength": "必需",
+    "reason": "基本方法支撑次数策略"
+  },
+  {
+    "from": "MA-2A-015",
+    "to": "MA-5B-038",
+    "strength": "必需",
+    "reason": "平均分直觉支持分堆称量"
+  },
+  {
+    "from": "MA-5B-009",
+    "to": "MA-5B-038",
+    "strength": "有帮助",
+    "reason": "分类推理习惯有帮助"
+  },
+  {
+    "from": "MA-2A-016",
+    "to": "MA-6A-001",
+    "strength": "必需",
+    "reason": "方向感与列行方位支撑数对"
+  },
+  {
+    "from": "MA-2A-017",
+    "to": "MA-6A-002",
+    "strength": "必需",
+    "reason": "用方向说路线是方向距离描述基础"
+  },
+  {
+    "from": "MA-6A-001",
+    "to": "MA-6A-002",
+    "strength": "必需",
+    "reason": "有序数对经验对照另一种位置描述"
+  },
+  {
+    "from": "MA-6A-002",
+    "to": "MA-6A-003",
+    "strength": "必需",
+    "reason": "方向与距离定点支撑路线分段描述"
+  },
+  {
+    "from": "MA-5B-024",
+    "to": "MA-6A-004",
+    "strength": "必需",
+    "reason": "约分习惯进入乘法计算"
+  },
+  {
+    "from": "MA-6A-004",
+    "to": "MA-6A-005",
+    "strength": "必需",
+    "reason": "分数乘整数过渡到乘分数"
+  },
+  {
+    "from": "MA-6A-005",
+    "to": "MA-6A-006",
+    "strength": "必需",
+    "reason": "乘分数计算支撑求一个数的几分之几"
+  },
+  {
+    "from": "MA-5B-027",
+    "to": "MA-6A-007",
+    "strength": "必需",
+    "reason": "分数小数互化支撑混合运算"
+  },
+  {
+    "from": "MA-6A-005",
+    "to": "MA-6A-007",
+    "strength": "必需",
+    "reason": "分数乘法是混合式核心"
+  },
+  {
+    "from": "MA-5A-007",
+    "to": "MA-6A-008",
+    "strength": "必需",
+    "reason": "小数上的运算律经验迁移到分数"
+  },
+  {
+    "from": "MA-6A-005",
+    "to": "MA-6A-008",
+    "strength": "必需",
+    "reason": "先会算分数乘法再用律简算"
+  },
+  {
+    "from": "MA-6A-006",
+    "to": "MA-6A-009",
+    "strength": "必需",
+    "reason": "求几分之几是解决问题主干"
+  },
+  {
+    "from": "MA-6A-007",
+    "to": "MA-6A-009",
+    "strength": "有帮助",
+    "reason": "混合运算熟练有助于多步"
+  },
+  {
+    "from": "MA-5B-020",
+    "to": "MA-6A-010",
+    "strength": "必需",
+    "reason": "分数与除法联系支撑倒数意义"
+  },
+  {
+    "from": "MA-6A-010",
+    "to": "MA-6A-011",
+    "strength": "必需",
+    "reason": "倒数是除法转化前提"
+  },
+  {
+    "from": "MA-6A-004",
+    "to": "MA-6A-011",
+    "strength": "必需",
+    "reason": "乘整数经验对照除以整数"
+  },
+  {
+    "from": "MA-6A-011",
+    "to": "MA-6A-012",
+    "strength": "必需",
+    "reason": "除以整数过渡到除以分数"
+  },
+  {
+    "from": "MA-6A-012",
+    "to": "MA-6A-013",
+    "strength": "必需",
+    "reason": "除以分数支撑乘除混合"
+  },
+  {
+    "from": "MA-6A-005",
+    "to": "MA-6A-013",
+    "strength": "有帮助",
+    "reason": "乘法熟练减少改写后出错"
+  },
+  {
+    "from": "MA-6A-012",
+    "to": "MA-6A-014",
+    "strength": "必需",
+    "reason": "除以分数是求单位「1」的计算基础"
+  },
+  {
+    "from": "MA-6A-006",
+    "to": "MA-6A-014",
+    "strength": "必需",
+    "reason": "与求几分之几对照形成乘除互逆"
+  },
+  {
+    "from": "MA-6A-014",
+    "to": "MA-6A-015",
+    "strength": "必需",
+    "reason": "求单位「1」支撑比较句问题"
+  },
+  {
+    "from": "MA-6A-009",
+    "to": "MA-6A-015",
+    "strength": "有帮助",
+    "reason": "乘法解决问题经验迁移"
+  },
+  {
+    "from": "MA-4A-005",
+    "to": "MA-6A-016",
+    "strength": "有帮助",
+    "reason": "大数比较与数感帮助理解正负方向"
+  },
+  {
+    "from": "MA-6A-016",
+    "to": "MA-6A-017",
+    "strength": "必需",
+    "reason": "生活例子支撑形式化认识"
+  },
+  {
+    "from": "MA-6A-017",
+    "to": "MA-6A-018",
+    "strength": "必需",
+    "reason": "会读写负数再记录相反意义的量"
+  },
+  {
+    "from": "MA-3B-014",
+    "to": "MA-6A-019",
+    "strength": "必需",
+    "reason": "周长直觉支撑认识圆边界"
+  },
+  {
+    "from": "MA-6A-019",
+    "to": "MA-6A-020",
+    "strength": "必需",
+    "reason": "圆的要素支撑扇形"
+  },
+  {
+    "from": "MA-6A-019",
+    "to": "MA-6A-021",
+    "strength": "必需",
+    "reason": "半径直径是周长公式前提"
+  },
+  {
+    "from": "MA-3B-015",
+    "to": "MA-6A-021",
+    "strength": "必需",
+    "reason": "长方形周长计算经验对照圆周长"
+  },
+  {
+    "from": "MA-6A-021",
+    "to": "MA-6A-022",
+    "strength": "必需",
+    "reason": "先会周长与 π 再学面积"
+  },
+  {
+    "from": "MA-3B-018",
+    "to": "MA-6A-022",
+    "strength": "必需",
+    "reason": "面积含义支撑圆面积"
+  },
+  {
+    "from": "MA-6A-022",
+    "to": "MA-6A-023",
+    "strength": "必需",
+    "reason": "面积公式进入实际问题"
+  },
+  {
+    "from": "MA-6A-021",
+    "to": "MA-6A-023",
+    "strength": "有帮助",
+    "reason": "周长公式用于围边类问题"
+  },
+  {
+    "from": "MA-6A-019",
+    "to": "MA-6A-024",
+    "strength": "必需",
+    "reason": "圆的认识是图案设计基础"
+  },
+  {
+    "from": "MA-6A-020",
+    "to": "MA-6A-024",
+    "strength": "有帮助",
+    "reason": "扇形与弧的直观帮助花瓣设计"
+  },
+  {
+    "from": "MA-6A-009",
+    "to": "MA-6A-025",
+    "strength": "有帮助",
+    "reason": "分数乘法应用经验可带入体育数据"
+  },
+  {
+    "from": "MA-5B-036",
+    "to": "MA-6A-025",
+    "strength": "有帮助",
+    "reason": "折线统计图经验服务成绩变化"
+  },
+  {
+    "from": "MA-4B-035",
+    "to": "MA-6A-025",
+    "strength": "必需",
+    "reason": "平均数是体育成绩比较常用工具"
+  },
+  {
+    "from": "MA-5B-019",
+    "to": "MA-6A-026",
+    "strength": "有帮助",
+    "reason": "分数意义帮助理解百分数"
+  },
+  {
+    "from": "MA-5B-027",
+    "to": "MA-6A-026",
+    "strength": "必需",
+    "reason": "分数小数互化经验对照百分数"
+  },
+  {
+    "from": "MA-6A-026",
+    "to": "MA-6A-027",
+    "strength": "必需",
+    "reason": "先理解意义再互化"
+  },
+  {
+    "from": "MA-6A-027",
+    "to": "MA-6A-028",
+    "strength": "必需",
+    "reason": "互化后才能方便计算百分之几"
+  },
+  {
+    "from": "MA-6A-006",
+    "to": "MA-6A-028",
+    "strength": "必需",
+    "reason": "求几分之几与求百分之几同构"
+  },
+  {
+    "from": "MA-6A-027",
+    "to": "MA-6A-029",
+    "strength": "必需",
+    "reason": "除得小数后再化百分数"
+  },
+  {
+    "from": "MA-6A-026",
+    "to": "MA-6A-029",
+    "strength": "有帮助",
+    "reason": "百分数意义帮助表述百分率"
+  },
+  {
+    "from": "MA-6A-028",
+    "to": "MA-6A-030",
+    "strength": "必需",
+    "reason": "求一个数的百分之几直接服务达标人数"
+  },
+  {
+    "from": "MA-6A-029",
+    "to": "MA-6A-030",
+    "strength": "有帮助",
+    "reason": "百分率表述帮助理解达标线"
+  },
+  {
+    "from": "MA-6A-028",
+    "to": "MA-6A-031",
+    "strength": "必需",
+    "reason": "百分数求对应量用于用水分析"
+  },
+  {
+    "from": "MA-6A-029",
+    "to": "MA-6A-031",
+    "strength": "必需",
+    "reason": "求百分率用于节水对比"
+  },
+  {
+    "from": "MA-5A-030",
+    "to": "MA-6A-032",
+    "strength": "有帮助",
+    "reason": "可能性语言帮助区分「也许」与「少不了」"
+  },
+  {
+    "from": "MA-2A-015",
+    "to": "MA-6A-032",
+    "strength": "必需",
+    "reason": "平均分直觉支撑最坏分配想象"
+  },
+  {
+    "from": "MA-6A-032",
+    "to": "MA-6A-033",
+    "strength": "必需",
+    "reason": "基本认识支撑最不利策略"
+  },
+  {
+    "from": "MA-6A-006",
+    "to": "MA-6B-001",
+    "strength": "必需",
+    "reason": "几分之几的倍比直觉支撑比的意义"
+  },
+  {
+    "from": "MA-6B-001",
+    "to": "MA-6B-002",
+    "strength": "必需",
+    "reason": "先会比再求比值与各部分"
+  },
+  {
+    "from": "MA-6B-001",
+    "to": "MA-6B-003",
+    "strength": "必需",
+    "reason": "比的意义支撑与分数除法对照"
+  },
+  {
+    "from": "MA-5B-020",
+    "to": "MA-6B-003",
+    "strength": "必需",
+    "reason": "分数与除法是三者关系的一端"
+  },
+  {
+    "from": "MA-6B-002",
+    "to": "MA-6B-004",
+    "strength": "必需",
+    "reason": "会求比值再理解化简不变"
+  },
+  {
+    "from": "MA-5B-024",
+    "to": "MA-6B-004",
+    "strength": "有帮助",
+    "reason": "约分技能直接用于化简比"
+  },
+  {
+    "from": "MA-6B-004",
+    "to": "MA-6B-005",
+    "strength": "必需",
+    "reason": "化简后的份数便于按比分配"
+  },
+  {
+    "from": "MA-6A-006",
+    "to": "MA-6B-005",
+    "strength": "有帮助",
+    "reason": "各部分占总量几分之几可对照"
+  },
+  {
+    "from": "MA-6B-001",
+    "to": "MA-6B-006",
+    "strength": "必需",
+    "reason": "先有比再谈两个比相等"
+  },
+  {
+    "from": "MA-6B-002",
+    "to": "MA-6B-006",
+    "strength": "有帮助",
+    "reason": "比值相等是组成比例的判据"
+  },
+  {
+    "from": "MA-6B-006",
+    "to": "MA-6B-007",
+    "strength": "必需",
+    "reason": "先理解比例再学基本性质"
+  },
+  {
+    "from": "MA-6B-007",
+    "to": "MA-6B-008",
+    "strength": "必需",
+    "reason": "基本性质是解比例的依据"
+  },
+  {
+    "from": "MA-6B-006",
+    "to": "MA-6B-009",
+    "strength": "必需",
+    "reason": "比例语言支撑正比例定义"
+  },
+  {
+    "from": "MA-6B-009",
+    "to": "MA-6B-010",
+    "strength": "必需",
+    "reason": "先正后反便于对比"
+  },
+  {
+    "from": "MA-6B-009",
+    "to": "MA-6B-011",
+    "strength": "有帮助",
+    "reason": "正比例是判断选项之一"
+  },
+  {
+    "from": "MA-6B-010",
+    "to": "MA-6B-011",
+    "strength": "必需",
+    "reason": "反比例是判断选项之一"
+  },
+  {
+    "from": "MA-6B-006",
+    "to": "MA-6B-012",
+    "strength": "必需",
+    "reason": "比例尺是特殊的比/比例表示"
+  },
+  {
+    "from": "MA-6B-012",
+    "to": "MA-6B-013",
+    "strength": "必需",
+    "reason": "先懂比例尺再求距离"
+  },
+  {
+    "from": "MA-6B-008",
+    "to": "MA-6B-013",
+    "strength": "有帮助",
+    "reason": "解比例是求距离的常用工具"
+  },
+  {
+    "from": "MA-6B-012",
+    "to": "MA-6B-014",
+    "strength": "必需",
+    "reason": "比例尺与放大缩小同构"
+  },
+  {
+    "from": "MA-6B-004",
+    "to": "MA-6B-014",
+    "strength": "有帮助",
+    "reason": "化简比帮助表述放大缩小比"
+  },
+  {
+    "from": "MA-6B-011",
+    "to": "MA-6B-015",
+    "strength": "必需",
+    "reason": "先会判断正反再列比例解题"
+  },
+  {
+    "from": "MA-6B-008",
+    "to": "MA-6B-015",
+    "strength": "必需",
+    "reason": "解比例是列式求解手段"
+  },
+  {
+    "from": "MA-6B-010",
+    "to": "MA-6B-016",
+    "strength": "必需",
+    "reason": "反比例积一定解释杠杆平衡"
+  },
+  {
+    "from": "MA-6B-013",
+    "to": "MA-6B-017",
+    "strength": "必需",
+    "reason": "图上实际换算服务平面图"
+  },
+  {
+    "from": "MA-6A-002",
+    "to": "MA-6B-017",
+    "strength": "有帮助",
+    "reason": "方向距离帮助摆放方位"
+  },
+  {
+    "from": "MA-6A-026",
+    "to": "MA-6B-018",
+    "strength": "必需",
+    "reason": "百分数意义支撑扇形占比"
+  },
+  {
+    "from": "MA-6A-020",
+    "to": "MA-6B-018",
+    "strength": "有帮助",
+    "reason": "扇形几何直观帮助读图"
+  },
+  {
+    "from": "MA-6B-018",
+    "to": "MA-6B-019",
+    "strength": "必需",
+    "reason": "先认识再读数计算"
+  },
+  {
+    "from": "MA-6A-028",
+    "to": "MA-6B-019",
+    "strength": "必需",
+    "reason": "求一个数的百分之几用于求部分量"
+  },
+  {
+    "from": "MA-6B-018",
+    "to": "MA-6B-020",
+    "strength": "必需",
+    "reason": "会扇形才能在三种图中选它"
+  },
+  {
+    "from": "MA-4A-030",
+    "to": "MA-6B-020",
+    "strength": "有帮助",
+    "reason": "条形图经验对照"
+  },
+  {
+    "from": "MA-5B-036",
+    "to": "MA-6B-020",
+    "strength": "有帮助",
+    "reason": "折线图经验对照"
+  },
+  {
+    "from": "MA-5B-010",
+    "to": "MA-6B-021",
+    "strength": "必需",
+    "reason": "长方体要素经验对照立体特征"
+  },
+  {
+    "from": "MA-6A-019",
+    "to": "MA-6B-021",
+    "strength": "有帮助",
+    "reason": "圆是圆柱底面"
+  },
+  {
+    "from": "MA-6B-021",
+    "to": "MA-6B-022",
+    "strength": "必需",
+    "reason": "先认识圆柱再算侧面积"
+  },
+  {
+    "from": "MA-6A-021",
+    "to": "MA-6B-022",
+    "strength": "必需",
+    "reason": "底面周长来自圆周长"
+  },
+  {
+    "from": "MA-6B-022",
+    "to": "MA-6B-023",
+    "strength": "必需",
+    "reason": "侧面积是表面积的一部分"
+  },
+  {
+    "from": "MA-6A-022",
+    "to": "MA-6B-023",
+    "strength": "必需",
+    "reason": "底面积用圆面积"
+  },
+  {
+    "from": "MA-5B-014",
+    "to": "MA-6B-024",
+    "strength": "必需",
+    "reason": "底面积×高的体积思路迁移"
+  },
+  {
+    "from": "MA-6A-022",
+    "to": "MA-6B-024",
+    "strength": "必需",
+    "reason": "圆柱底面积是圆面积"
+  },
+  {
+    "from": "MA-6B-023",
+    "to": "MA-6B-025",
+    "strength": "必需",
+    "reason": "表面积公式进入实际问题"
+  },
+  {
+    "from": "MA-6B-024",
+    "to": "MA-6B-025",
+    "strength": "必需",
+    "reason": "体积公式进入实际问题"
+  },
+  {
+    "from": "MA-6B-021",
+    "to": "MA-6B-026",
+    "strength": "必需",
+    "reason": "圆柱对照认识圆锥"
+  },
+  {
+    "from": "MA-6A-020",
+    "to": "MA-6B-026",
+    "strength": "有帮助",
+    "reason": "扇形是侧面展开直观"
+  },
+  {
+    "from": "MA-6B-024",
+    "to": "MA-6B-027",
+    "strength": "必需",
+    "reason": "圆柱体积是圆锥公式参照"
+  },
+  {
+    "from": "MA-6B-026",
+    "to": "MA-6B-027",
+    "strength": "必需",
+    "reason": "先认识圆锥再算体积"
+  },
+  {
+    "from": "MA-6B-027",
+    "to": "MA-6B-028",
+    "strength": "必需",
+    "reason": "圆锥体积公式支撑三倍关系"
+  },
+  {
+    "from": "MA-6B-024",
+    "to": "MA-6B-028",
+    "strength": "有帮助",
+    "reason": "圆柱体积是另一端"
+  },
+  {
+    "from": "MA-6A-028",
+    "to": "MA-6B-029",
+    "strength": "必需",
+    "reason": "百分数求对应量用于营养结构"
+  },
+  {
+    "from": "MA-6B-005",
+    "to": "MA-6B-029",
+    "strength": "有帮助",
+    "reason": "按比分配可调配菜比例"
+  },
+  {
+    "from": "MA-6B-019",
+    "to": "MA-6B-029",
+    "strength": "有帮助",
+    "reason": "读占比图服务营养讨论"
+  }
+]

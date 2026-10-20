@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chain.schema.json",
+  "title": "主题链 Chain",
+  "type": "object",
+  "required": ["chain_id", "subject", "chain_name", "summary"],
+  "properties": {
+    "chain_id": {"type": "string"},
+    "subject": {"enum": ["数学", "语文", "英语"]},
+    "chain_name": {"type": "string"},
+    "summary": {"type": "string", "description": "这条链从哪到哪（1–6 年级的大方向，自写）"}
+  }
+}

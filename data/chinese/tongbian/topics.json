@@ -1,0 +1,360 @@
+[
+  {
+    "id": "CN-1A-001",
+    "subject": "语文",
+    "name": "单韵母 a、o、e 的发音",
+    "kind": "读写技能",
+    "topic_chain": {
+      "chain_id": "cn.pinyin",
+      "chain_name": "汉语拼音（发音→拼读→书写规则）",
+      "step": 10
+    },
+    "difficulty_level": 1,
+    "textbook_refs": [
+      {
+        "edition": "统编版2024修订",
+        "grade": 1,
+        "term": "上",
+        "unit_id": "C1A-U2",
+        "unit_order": 2,
+        "unit_name": "第二单元·汉语拼音",
+        "verification": "已核-双源",
+        "note": "单元覆盖单韵母与声母等；本点只讲 a o e，其余字母不在本点展开"
+      }
+    ],
+    "essence": "单韵母一口气发出来，嘴形从头到尾不变。",
+    "mastery": [
+      "能看字母读准 a、o、e",
+      "能说出三个音的嘴形有什么不同",
+      "能在四线三格里写对"
+    ],
+    "explain": {
+      "scene": "去医院看嗓子，医生让你张大嘴说“啊——”，这就是 a。",
+      "hook": "像唱歌拉长音，声音拉长，嘴巴不动。",
+      "steps": [
+        "看嘴形：a 嘴巴张大，o 嘴巴圆圆，e 嘴角往两边扁一点",
+        "对着镜子发音",
+        "把声音拉长，检查嘴形有没有变"
+      ],
+      "mistake": {
+        "wrong": "o 读着读着嘴巴变了，读成像“欧”",
+        "right": "o 从头到尾嘴巴圆圆不变",
+        "why": "嘴形一变就成了别的韵母（ou）"
+      }
+    },
+    "pitfalls": [
+      "o 和 e 读混",
+      "写 o 时没有封口"
+    ],
+    "parent_check": "对着镜子读一个 o，读完嘴形变了没有？",
+    "status": "草稿",
+    "review": {
+      "by": "",
+      "date": "",
+      "note": "待教师审核"
+    },
+    "updated": "2026-10-19",
+    "oral_diagnosis": {
+      "questions": [
+        {
+          "ask": "对着镜子读一个 o，读完嘴形变了没有？",
+          "pass": "嘴形保持圆圆，声音拉长",
+          "misconception": "读着读着嘴形变了，听起来像别的音"
+        },
+        {
+          "ask": "a、o、e 三个，哪个嘴巴张得最大？",
+          "pass": "能指出 a，并能比划 o 和 e 的嘴形",
+          "misconception": "三个嘴形说不清"
+        }
+      ],
+      "fallback": "退到：先只练 a，张大嘴拉长音；再加 o。"
+    }
+  },
+  {
+    "id": "CN-1A-002",
+    "subject": "语文",
+    "name": "声母和单韵母拼读（两拼音节）",
+    "kind": "读写技能",
+    "topic_chain": {
+      "chain_id": "cn.pinyin",
+      "chain_name": "汉语拼音（发音→拼读→书写规则）",
+      "step": 20
+    },
+    "difficulty_level": 2,
+    "textbook_refs": [
+      {
+        "edition": "统编版2024修订",
+        "grade": 1,
+        "term": "上",
+        "unit_id": "C1A-U2",
+        "unit_order": 2,
+        "unit_name": "第二单元·汉语拼音",
+        "verification": "已核-双源",
+        "note": "单元覆盖单韵母与声母等；本点只讲 a o e，其余字母不在本点展开"
+      }
+    ],
+    "essence": "声母轻轻短短，韵母响亮，两个音快速碰在一起读成一个音。",
+    "mastery": [
+      "能拼读 b、p、m、f 和单韵母组成的音节",
+      "能读出 b 和 p 的区别（p 出气更强）",
+      "能看音节读出认识的词"
+    ],
+    "explain": {
+      "scene": "两个小朋友从两边跑过来，手一拉，就成了一个声音：b—a，ba。",
+      "hook": "像拍手：两只手一碰，只响一声“啪”。",
+      "steps": [
+        "声母读得轻、短",
+        "韵母读得响",
+        "中间不停，快速连读",
+        "最后加上声调再读一遍"
+      ],
+      "mistake": {
+        "wrong": "把 ba 读成两拍：“bo—a”",
+        "right": "一口气读 ba",
+        "why": "拼的时候声母只轻轻一带，不能把它当成单独一个字读"
+      }
+    },
+    "pitfalls": [
+      "b 和 d、p 和 q 方向弄反",
+      "声母读得太重、太长"
+    ],
+    "parent_check": "p 和 a 拼起来读什么？读快一点，中间别停。",
+    "status": "草稿",
+    "review": {
+      "by": "",
+      "date": "",
+      "note": "待教师审核"
+    },
+    "updated": "2026-10-19",
+    "oral_diagnosis": {
+      "questions": [
+        {
+          "ask": "p 和 a 拼起来读什么？读快一点，中间别停。",
+          "pass": "能一口气读出 pa（可再加声调）",
+          "misconception": "读成两拍「po—a」"
+        },
+        {
+          "ask": "b 和 p 有什么不一样？你吹手心试一下。",
+          "pass": "能感觉 p 出气更强",
+          "misconception": "两个都读成一样"
+        }
+      ],
+      "fallback": "退到：先单独读准韵母 a；再让声母又轻又短地碰一下。"
+    }
+  },
+  {
+    "id": "CN-1A-003",
+    "subject": "语文",
+    "name": "ü 上两点什么时候省略",
+    "kind": "规则",
+    "topic_chain": {
+      "chain_id": "cn.pinyin",
+      "chain_name": "汉语拼音（发音→拼读→书写规则）",
+      "step": 40
+    },
+    "difficulty_level": 3,
+    "textbook_refs": [
+      {
+        "edition": "统编版2024修订",
+        "grade": 1,
+        "term": "上",
+        "unit_id": "C1A-U3",
+        "unit_order": 3,
+        "unit_name": "第三单元·汉语拼音",
+        "verification": "已核-双源",
+        "note": "ü 上两点规则出现在本单元相关声母之后；细则以课本为准"
+      }
+    ],
+    "essence": "ü 和 j、q、x 相拼（还有 y 开头）时，两点不写，读音还是 ü。",
+    "mastery": [
+      "能说出省略两点的规则",
+      "能正确写出 ju、qu、xu、yu",
+      "能分清 nü 和 nu、lü 和 lu"
+    ],
+    "explain": {
+      "scene": "ü 去朋友家做客，见到 j、q、x、y 这几位，就把头上的小帽子摘下来，人还是那个人。",
+      "hook": "口诀：j q x y 来敲门，ü 摘掉小帽子，读音不变心不变。",
+      "steps": [
+        "看到 j、q、x 后面的 u，先想：它其实是 ü",
+        "写的时候去掉两点",
+        "读的时候嘴唇还是撮成小圆"
+      ],
+      "mistake": {
+        "wrong": "把 ju 里的 u 读成“乌”",
+        "right": "ju 读作 jü",
+        "why": "j、q、x 从来不和 u 拼，后面写的 u 一定是 ü"
+      }
+    },
+    "pitfalls": [
+      "和 n、l 相拼时也把两点去掉（nü、lü 要保留两点）"
+    ],
+    "parent_check": "为什么「去」的拼音不写两点，读的时候还是 ü？",
+    "status": "草稿",
+    "review": {
+      "by": "",
+      "date": "",
+      "note": "待教师审核"
+    },
+    "updated": "2026-10-19",
+    "oral_diagnosis": {
+      "questions": [
+        {
+          "ask": "为什么「去」的拼音不写两点，读的时候还是 ü？",
+          "pass": "能说出和 j q x（或 y）在一起时两点不写，读音仍是 ü",
+          "misconception": "把 ju 里的 u 读成「乌」"
+        },
+        {
+          "ask": "「女」的拼音为什么还要两点？",
+          "pass": "能说出和 n、l 相拼要保留两点，好和 nu、lu 区分",
+          "misconception": "nü 也去掉两点"
+        }
+      ],
+      "fallback": "退到：先认 ü 的发音（撮口）；再看它旁边是谁。"
+    }
+  },
+  {
+    "id": "CN-1A-004",
+    "subject": "语文",
+    "name": "声调标在哪个字母上",
+    "kind": "规则",
+    "topic_chain": {
+      "chain_id": "cn.pinyin",
+      "chain_name": "汉语拼音（发音→拼读→书写规则）",
+      "step": 50
+    },
+    "difficulty_level": 2,
+    "textbook_refs": [
+      {
+        "edition": "统编版2024修订",
+        "grade": 1,
+        "term": "上",
+        "unit_id": "C1A-U4",
+        "unit_order": 4,
+        "unit_name": "第四单元·汉语拼音",
+        "verification": "已核-双源",
+        "note": "本单元含复韵母与鼻韵母；标调位置规则细则待对照课本页码"
+      }
+    ],
+    "essence": "先找 a；没有 a 找 o 或 e；i 和 u 挨在一起，标在后面那个上。",
+    "mastery": [
+      "能按规则给音节标调",
+      "能说出 iu、ui 的调号标在哪里",
+      "能在给 i 标调时去掉 i 上的点"
+    ],
+    "explain": {
+      "scene": "声调像一顶小帽子，要戴在声音最响亮的字母头上。",
+      "hook": "口诀：先找 a，没 a 找 o e；i u 站一排，帽子给后边。",
+      "steps": [
+        "看韵母里有没有 a，有就标在 a 上",
+        "没有 a，就找 o 或 e",
+        "只有 i、u 在一起时，标在后一个",
+        "i 上标调时，先把 i 上的点去掉"
+      ],
+      "mistake": {
+        "wrong": "“鬼”标成 ɡǔi",
+        "right": "ɡuǐ",
+        "why": "i 和 u 在一起，调号标在后面的字母上"
+      }
+    },
+    "pitfalls": [
+      "给 i 标调忘了去点",
+      "把调号标在声母上"
+    ],
+    "parent_check": "「水」的拼音 shui 是第三声，小帽子戴在哪个字母上？为什么？",
+    "status": "草稿",
+    "review": {
+      "by": "",
+      "date": "",
+      "note": "待教师审核"
+    },
+    "updated": "2026-10-19",
+    "oral_diagnosis": {
+      "questions": [
+        {
+          "ask": "「水」的拼音 shui 是第三声，小帽子戴在哪个字母上？为什么？",
+          "pass": "标在 i 上，因为 i、u 在一起标后面那个",
+          "misconception": "标在 u 或标在声母上"
+        },
+        {
+          "ask": "给 i 标调时，头上的点怎么办？",
+          "pass": "先去掉点再标调",
+          "misconception": "点和调号挤在一起"
+        }
+      ],
+      "fallback": "退到：先在只有 a 的音节上练习标调；再练 iu、ui。"
+    }
+  },
+  {
+    "id": "CN-1A-005",
+    "subject": "语文",
+    "name": "把长句子读通：找停顿",
+    "kind": "读写技能",
+    "topic_chain": {
+      "chain_id": "cn.read_aloud",
+      "chain_name": "朗读（读正确→读通顺→读出语气）",
+      "step": 10
+    },
+    "difficulty_level": 1,
+    "textbook_refs": [
+      {
+        "edition": "统编版2024修订",
+        "grade": 1,
+        "term": "上",
+        "unit_id": "C1A-U8",
+        "unit_order": 8,
+        "unit_name": "第八单元·阅读",
+        "verification": "已核-官方",
+        "note": "语文要素概括为「把长句子读通」；来自 kb-v1 已核-官方要素"
+      }
+    ],
+    "essence": "按“谁—在哪里—做什么”把句子分成小段读，段和段之间停一下，句子就顺了。",
+    "mastery": [
+      "能用口头说出一句话里哪里可以短暂停一下",
+      "能不回读、不加字地读完一个长句",
+      "能在读完后说出句子讲了谁、做什么"
+    ],
+    "explain": {
+      "scene": "说一句很长的话也要换气，就像走路走累了，在路边歇一小会儿。",
+      "hook": "像吃长面条：一口一口吃，别一口吞。",
+      "steps": [
+        "先找「谁」（或「什么」）",
+        "再找「在哪里」「做什么」",
+        "在小段之间用手拍一下桌子表示停顿",
+        "照着拍子读，停顿要短"
+      ],
+      "mistake": {
+        "wrong": "在词中间停：小／猫在花／园里",
+        "right": "小猫／在花园里／追着蝴蝶跑",
+        "why": "一个词不能拆开读，拆开了意思就断了"
+      },
+      "example": "自编句子：小猫／在花园里／追着一只蝴蝶跑。"
+    },
+    "pitfalls": [
+      "一个字一个字往外蹦",
+      "停得太久，像句子断了"
+    ],
+    "parent_check": "你读这句话时在哪里换气？换个地方停，意思还对吗？",
+    "status": "草稿",
+    "review": {
+      "by": "",
+      "date": "",
+      "note": "待教师审核"
+    },
+    "updated": "2026-10-19",
+    "oral_diagnosis": {
+      "questions": [
+        {
+          "ask": "你读这句话时在哪里换气？换个地方停，意思还对吗？",
+          "pass": "能指出词与词之间的停顿，不拆开一个词",
+          "misconception": "在词中间停，意思断了"
+        },
+        {
+          "ask": "这句话里「谁」在做什么？用自己的话说。",
+          "pass": "能抓住人物和动作",
+          "misconception": "只顾读音说不出意思"
+        }
+      ],
+      "fallback": "退到：先读短句；再把两句短的合成一句长的练停顿。"
+    }
+  }
+]

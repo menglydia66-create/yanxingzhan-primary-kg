@@ -1,0 +1,230 @@
+[
+  {
+    "chain_id": "math.number",
+    "subject": "数学",
+    "chain_name": "数的认识（整数→分数→小数）",
+    "summary": "数数→20以内→100以内→整百千→万以内→亿以内与亿以上大数→改写与近似→分数初步→小数初步→分数与小数互化→负数。"
+  },
+  {
+    "chain_id": "math.add_sub",
+    "subject": "数学",
+    "chain_name": "数的组成与加减法",
+    "summary": "10以内加减→20以内→100以内→万以内→加减各部分关系→小数加减→方程与更复杂（后续）。"
+  },
+  {
+    "chain_id": "math.solid",
+    "subject": "数学",
+    "chain_name": "立体图形",
+    "summary": "认识立体→从一个位置观察→从不同位置观察→正面侧面上面→三视图还原→观察简单组合体→根据视图想象→单方向多种可能→三方向确定→长方体认识→正方体认识→表面积→探索图形→体积容积见体积链。"
+  },
+  {
+    "chain_id": "cn.pinyin",
+    "subject": "语文",
+    "chain_name": "汉语拼音（发音→拼读→书写规则）",
+    "summary": "单韵母→声母→拼读→复韵母、鼻韵母→标调与书写规则→借助拼音识字、查字典。"
+  },
+  {
+    "chain_id": "cn.read_aloud",
+    "subject": "语文",
+    "chain_name": "朗读（读正确→读通顺→读出语气）",
+    "summary": "借拼音读正确→长句读通→读出语气→默读→有感情地朗读。"
+  },
+  {
+    "chain_id": "en.letters",
+    "subject": "英语",
+    "chain_name": "字母与语音（字母→自然拼读→拼写）",
+    "summary": "字母认读与书写→字母发音→自然拼读→按音拼写单词。"
+  },
+  {
+    "chain_id": "en.sentence",
+    "subject": "英语",
+    "chain_name": "句型（是什么→有几个→介绍与问答→描述）",
+    "summary": "What is it?→How many?→问答身份→介绍他人→描述能力、喜好、时间、过去的事。"
+  },
+  {
+    "chain_id": "math.plane",
+    "subject": "数学",
+    "chain_name": "平面图形",
+    "summary": "平面图形直观→长方形正方形→角与多边形→平行四边形梯形认识→密铺认识→设计密铺。"
+  },
+  {
+    "chain_id": "math.money",
+    "subject": "数学",
+    "chain_name": "人民币与购物计算",
+    "summary": "认元角分→换算→简单买卖→元角分进率应用。"
+  },
+  {
+    "chain_id": "math.classify",
+    "subject": "数学",
+    "chain_name": "分类与整理",
+    "summary": "按标准分类→自选标准→逐层分类→收集数据与统计表（见 math.stats）→复式统计等。"
+  },
+  {
+    "chain_id": "math.multiply",
+    "subject": "数学",
+    "chain_name": "表内乘法",
+    "summary": "乘法认识→口诀→表内应用→多位数乘→积的变化与估算→乘除各部分关系→小数乘。"
+  },
+  {
+    "chain_id": "math.divide",
+    "subject": "数学",
+    "chain_name": "表内除法",
+    "summary": "平均分→除法认识→用口诀求商→除法应用→有余数除法→进一去尾与周期→整十整百除一位数→笔算一位数除多位数（含0）→除法解决问题→除数两位数（后续）。"
+  },
+  {
+    "chain_id": "math.measure",
+    "subject": "数学",
+    "chain_name": "长度测量",
+    "summary": "厘米→米→线段→估测→身体尺→毫米分米→千米→更精细与导出单位（后续）。"
+  },
+  {
+    "chain_id": "math.direction",
+    "subject": "数学",
+    "chain_name": "方向与位置",
+    "summary": "认识东南西北→用东南西北说路线→有序数对确定位置→方向和距离确定位置→描述简单路线图→后续。"
+  },
+  {
+    "chain_id": "math.time",
+    "subject": "数学",
+    "chain_name": "时间认识",
+    "summary": "整时半时→日常时间顺序→年月日与大月小月→平年闰年→24时计时→经过时间→时分秒（后续）。"
+  },
+  {
+    "chain_id": "math.multiple",
+    "subject": "数学",
+    "chain_name": "倍与乘除关系",
+    "summary": "倍的认识→求几倍→求几倍数→求一倍数→连续两问与提问题。"
+  },
+  {
+    "chain_id": "math.mixed_ops",
+    "subject": "数学",
+    "chain_name": "混合运算",
+    "summary": "两步混合→小括号→中括号四则→四则解决问题→鸡兔同笼等策略→更复杂综合（后续）。"
+  },
+  {
+    "chain_id": "math.mass",
+    "subject": "数学",
+    "chain_name": "质量认识",
+    "summary": "克与千克→称重读秤与估重→吨等（后续）。"
+  },
+  {
+    "chain_id": "math.code",
+    "subject": "数学",
+    "chain_name": "数字编码",
+    "summary": "认识分段编码→按约定编制学号与生活编码。"
+  },
+  {
+    "chain_id": "math.angle",
+    "subject": "数学",
+    "chain_name": "线与角",
+    "summary": "线段射线直线→比较线段→角的认识→直角锐角钝角→角的再认识→量角→平角周角→画角→三角形内角和→多边形内角（后续）。"
+  },
+  {
+    "chain_id": "math.fraction",
+    "subject": "数学",
+    "chain_name": "分数初步",
+    "summary": "几分之一→几分之几→同分母比大小→同分母加减→平均分物体→简单应用→分数意义→分数与除法→真假分数→基本性质→约分→通分→分数小数互化→同分母加减含约分→异分母加减→加减混合→解决问题→分数乘整数→一个数乘分数→求几分之几→分数小数混合→分数乘法问题→倒数→分数÷整数→÷分数→除法混合→已知几分之几求原数→多或少几分之几→后续。"
+  },
+  {
+    "chain_id": "math.motion",
+    "subject": "数学",
+    "chain_name": "图形运动",
+    "summary": "轴对称初步→平移初步→旋转初步→轴对称再认识与补画→平移再认识与作图→轴对称作图与图案→平移作图与图案→旋转再认识与作图→综合设计图案→旋转三要素→旋转作图→用旋转解决问题。"
+  },
+  {
+    "chain_id": "math.area",
+    "subject": "数学",
+    "chain_name": "面积",
+    "summary": "面积含义→面积单位→长方形正方形面积→进率→用面积解决问题→平行四边形面积→三角形面积→梯形面积→组合图形→格点多边形→圆面积（后续）。"
+  },
+  {
+    "chain_id": "math.stats",
+    "subject": "数学",
+    "chain_name": "数据整理",
+    "summary": "收集数据与画正字→单式统计表→复式统计表→分段整理→单式条形→复式条形→读条形分析→复式条形再应用→单式折线→复式折线→扇形统计图认识→读扇形→选择合适统计图→后续。"
+  },
+  {
+    "chain_id": "math.decimal",
+    "subject": "数学",
+    "chain_name": "小数初步",
+    "summary": "认识小数→简单比较与加减→小数意义与读写→性质→多位比较→小数点移动与换算→近似数→小数加减笔算与混合→运算律推广→小数乘整数→小数乘小数→积的位数与近似→小数除法→商的近似与循环小数→小数乘除解决问题。"
+  },
+  {
+    "chain_id": "math.quantity",
+    "subject": "数学",
+    "chain_name": "数量关系模型",
+    "summary": "常见数量关系→两端都栽植树→两端不栽→封闭路线植树→通知倍增（选学）→找次品方法→找次品次数策略→体育中的数学综合→鸽巢认识→鸽巢策略→更复杂模型（后续）。"
+  },
+  {
+    "chain_id": "math.parallel",
+    "subject": "数学",
+    "chain_name": "平行与垂直",
+    "summary": "垂直与垂线→平行与平行线→画垂线→画平行线→三角形中的高（后续）。"
+  },
+  {
+    "chain_id": "math.laws",
+    "subject": "数学",
+    "chain_name": "运算律",
+    "summary": "加法运算律→乘法运算律→运算律解决问题→整数加法律推到小数→整数乘法律推到小数→运算律推广到分数乘法→后续。"
+  },
+  {
+    "chain_id": "math.triangle",
+    "subject": "数学",
+    "chain_name": "三角形",
+    "summary": "三角形认识→特性（高与稳定）→三边关系→分类→内角和→三角形面积→后续。"
+  },
+  {
+    "chain_id": "math.average",
+    "subject": "数学",
+    "chain_name": "平均数",
+    "summary": "平均数意义与求法→用平均数比较→结合统计图分析→加权与更复杂代表量（后续）。"
+  },
+  {
+    "chain_id": "math.algebra",
+    "subject": "数学",
+    "chain_name": "字母与式",
+    "summary": "用字母表示数→表示运算律与公式→表示数量关系→求值→百数表规律→方程（后续册）。"
+  },
+  {
+    "chain_id": "math.probability",
+    "subject": "数学",
+    "chain_name": "可能性",
+    "summary": "一定可能不可能→可能性大小→等可能与公平→频率与概率（后续）。"
+  },
+  {
+    "chain_id": "math.factor",
+    "subject": "数学",
+    "chain_name": "因数与倍数",
+    "summary": "因数倍数认识→找因数→找倍数→2和5特征→3特征→质数合数→奇偶和→最大公因数→最小公倍数→后续。"
+  },
+  {
+    "chain_id": "math.volume",
+    "subject": "数学",
+    "chain_name": "体积与容积",
+    "summary": "体积含义与单位→长方体正方体体积→进率→容积→不规则体积→探索图形→圆柱认识→侧面积→表面积→圆柱体积→圆柱问题→圆锥认识→圆锥体积→等底等高关系→后续。"
+  },
+  {
+    "chain_id": "math.circle",
+    "subject": "数学",
+    "chain_name": "圆",
+    "summary": "圆的认识→扇形→周长与圆周率→面积→周长面积问题→图案设计（选学）→后续。"
+  },
+  {
+    "chain_id": "math.percent",
+    "subject": "数学",
+    "chain_name": "百分数",
+    "summary": "百分数意义读写→与分数小数互化→求一个数的百分之几→求百分率→达标线→水资源综合→营养午餐综合→后续。"
+  },
+  {
+    "chain_id": "math.negative",
+    "subject": "数学",
+    "chain_name": "负数初步",
+    "summary": "寻找生活中的负数→认识负数→用负数表示相反意义的量→后续。"
+  },
+  {
+    "chain_id": "math.ratio",
+    "subject": "数学",
+    "chain_name": "比与比例",
+    "summary": "比的意义→比值→与分数除法关系→化简比→按比分配→比例意义→基本性质→解比例→正比例→反比例→判断→比例尺→求距离→放大缩小→用比例解决问题→有趣的平衡→校园平面图→后续。"
+  }
+]

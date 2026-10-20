@@ -1,0 +1,32 @@
+[
+  {
+    "from": "CN-1A-001",
+    "to": "CN-1A-002",
+    "strength": "必需",
+    "reason": "拼读要先读准韵母"
+  },
+  {
+    "from": "CN-1A-002",
+    "to": "CN-1A-003",
+    "strength": "必需",
+    "reason": "先会拼读，才谈得上 ü 和 j q x 怎么拼"
+  },
+  {
+    "from": "CN-1A-001",
+    "to": "CN-1A-004",
+    "strength": "必需",
+    "reason": "标调先要认得 a o e 这些韵母"
+  },
+  {
+    "from": "CN-1A-002",
+    "to": "CN-1A-004",
+    "strength": "有帮助",
+    "reason": "会拼读后更容易听出调号落在哪"
+  },
+  {
+    "from": "CN-1A-002",
+    "to": "CN-1A-005",
+    "strength": "有帮助",
+    "reason": "能借拼音读准字，长句才读得顺"
+  }
+]

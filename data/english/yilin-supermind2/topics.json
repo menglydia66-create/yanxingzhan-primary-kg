@@ -1,0 +1,368 @@
+[
+  {
+    "id": "EN-1A-001",
+    "subject": "英语",
+    "name": "问“这是什么”：What is it? It's a ...",
+    "kind": "表达",
+    "topic_chain": {
+      "chain_id": "en.sentence",
+      "chain_name": "句型（是什么→有几个→介绍与问答→描述）",
+      "step": 10
+    },
+    "difficulty_level": 1,
+    "textbook_refs": [
+      {
+        "edition": "Super Minds 2nd Starter",
+        "grade": 1,
+        "term": "全年",
+        "unit_id": "E1A-U1",
+        "unit_order": 2,
+        "unit_name": "Unit 1 My classroom",
+        "verification": "已核-官方",
+        "note": "研星站建议进度放在 1 年级上册；句型栏来自剑桥 Map of the book"
+      }
+    ],
+    "essence": "问“这是什么”用 What is it?，回答用 It's a ...；It's 就是 It is。",
+    "mastery": [
+      "能用 What is it? 提问",
+      "能用 It's a ... 指着家里的东西回答",
+      "能听到物品名指出对应的东西"
+    ],
+    "explain": {
+      "scene": "爸爸把一支铅笔藏在手心里，让孩子猜：What is it?",
+      "hook": "It's a 像一个小盒子，把东西的名字放进去，就是一句完整的话。",
+      "steps": [
+        "指着东西问 What is it?",
+        "回答 It's a ＋ 东西的名字",
+        "名字前面别忘了 a"
+      ],
+      "mistake": {
+        "wrong": "It's pen.",
+        "right": "It's a pen.",
+        "why": "说一个东西时，名字前要有 a，意思是“一个”"
+      },
+      "example": "自编对话：—What is it? —It's a pen."
+    },
+    "pitfalls": [
+      "把 It's 读成 is",
+      "问句末尾忘了问号"
+    ],
+    "parent_check": "你拿一样文具来考我：用英语问我「这是什么」。",
+    "status": "草稿",
+    "review": {
+      "by": "",
+      "date": "",
+      "note": "待教师审核"
+    },
+    "updated": "2026-10-19",
+    "oral_diagnosis": {
+      "questions": [
+        {
+          "ask": "你拿一样文具来考我：用英语问我「这是什么」。",
+          "pass": "能说出 What is it?，语调上扬",
+          "misconception": "中文问，或漏问号语气"
+        },
+        {
+          "ask": "我问 What is it?，你指着一支笔怎么答？",
+          "pass": "It's a pen.（有 a）",
+          "misconception": "说成 It's pen."
+        }
+      ],
+      "fallback": "退到：先只练 It's a ... 指物说名字；再学问句。"
+    }
+  },
+  {
+    "id": "EN-1A-002",
+    "subject": "英语",
+    "name": "问“有几个”：How many ...?",
+    "kind": "表达",
+    "topic_chain": {
+      "chain_id": "en.sentence",
+      "chain_name": "句型（是什么→有几个→介绍与问答→描述）",
+      "step": 20
+    },
+    "difficulty_level": 1,
+    "textbook_refs": [
+      {
+        "edition": "Super Minds 2nd Starter",
+        "grade": 1,
+        "term": "全年",
+        "unit_id": "E1A-U2",
+        "unit_order": 3,
+        "unit_name": "Unit 2 My body",
+        "verification": "已核-官方",
+        "note": "研星站建议进度放在 1 年级上册"
+      }
+    ],
+    "essence": "问“有几个”用 How many ＋ 东西加 s？回答直接说数字。",
+    "mastery": [
+      "能用 How many ...? 提问",
+      "能用1～10回答",
+      "能给常见名词加 s 表示不止一个"
+    ],
+    "explain": {
+      "scene": "数一数桌上的积木：How many blocks? 孩子数完说：Five.",
+      "hook": "How many 就是在说“数一数，有几个”。",
+      "steps": [
+        "东西不止一个时加 s：two pens",
+        "问：How many ＋ 东西s？",
+        "答：直接说数字，如 Three."
+      ],
+      "mistake": {
+        "wrong": "How many pen?",
+        "right": "How many pens?",
+        "why": "问“有几个”时，东西可能不止一个，要用加 s 的说法"
+      }
+    },
+    "pitfalls": [
+      "回答成 It's three.",
+      "把 seven 和 eleven 弄混"
+    ],
+    "parent_check": "桌上几支笔？你用英语问我，我来回答。",
+    "status": "草稿",
+    "review": {
+      "by": "",
+      "date": "",
+      "note": "待教师审核"
+    },
+    "updated": "2026-10-19",
+    "oral_diagnosis": {
+      "questions": [
+        {
+          "ask": "桌上几支笔？你用英语问我，我来回答。",
+          "pass": "能问 How many pens?（名词加 s）",
+          "misconception": "问成 How many pen?"
+        },
+        {
+          "ask": "How many books? 如果有三本，你怎么答？",
+          "pass": "直接说 Three.（不必 It's three）",
+          "misconception": "答成 It's three."
+        }
+      ],
+      "fallback": "退到：先数 1～5；再指着两支笔说 two pens。"
+    }
+  },
+  {
+    "id": "EN-3A-001",
+    "subject": "英语",
+    "name": "字母大小写配对与书写（Aa～Gg）",
+    "kind": "读写技能",
+    "topic_chain": {
+      "chain_id": "en.letters",
+      "chain_name": "字母与语音（字母→自然拼读→拼写）",
+      "step": 10
+    },
+    "difficulty_level": 1,
+    "textbook_refs": [
+      {
+        "edition": "译林版三起2024",
+        "grade": 3,
+        "term": "上",
+        "unit_id": "E3A-U1",
+        "unit_order": 1,
+        "unit_name": "Unit 1 Hello!",
+        "verification": "已核-双源",
+        "note": "字母 Aa–Dd；以课本为准"
+      },
+      {
+        "edition": "译林版三起2024",
+        "grade": 3,
+        "term": "上",
+        "unit_id": "E3A-U2",
+        "unit_order": 2,
+        "unit_name": "Unit 2 What's your name?",
+        "verification": "已核-双源",
+        "note": "字母 Ee–Gg；以课本为准"
+      }
+    ],
+    "essence": "每个字母都有大写、小写两种样子，名字一样。",
+    "mastery": [
+      "能按顺序读出 A～G",
+      "能把大写和小写连对",
+      "能在四线三格里书写（自己看课本或字帖对照即可，不需要家长批改）"
+    ],
+    "explain": {
+      "scene": "在车牌、零食包装上找英文字母，看看哪些是大写、哪些是小写。",
+      "hook": "像同一个人，上学穿校服、在家穿睡衣，样子不同，还是同一个人。",
+      "steps": [
+        "先读字母的名字",
+        "大写和小写配成一对",
+        "在四线三格里写：大写占上面两格；小写 b、d、f 往上出头，g 往下出头"
+      ],
+      "mistake": {
+        "wrong": "b 和 d 写反",
+        "right": "b 的“肚子”在右边，d 的“肚子”在左边",
+        "why": "方向一反，就成了另一个字母"
+      }
+    },
+    "pitfalls": [
+      "小写 g 没有写到第三格",
+      "大写 C 和小写 c 写成一样大"
+    ],
+    "parent_check": "b 和 d 怎么区分？用手比给我看。",
+    "status": "草稿",
+    "review": {
+      "by": "",
+      "date": "",
+      "note": "待教师审核"
+    },
+    "updated": "2026-10-19",
+    "oral_diagnosis": {
+      "questions": [
+        {
+          "ask": "b 和 d 怎么区分？用手比给我看。",
+          "pass": "能说出或比出肚子在右是 b、在左是 d",
+          "misconception": "写反或说反"
+        },
+        {
+          "ask": "字母 A 的名字怎么读？它和大写、小写是不是同一个字母？",
+          "pass": "能读出字母名，并确认大小写是同一字母的两种样子",
+          "misconception": "把大小写当成两个无关符号"
+        }
+      ],
+      "fallback": "退到：先只认 3 个字母的大小写配对；书写可先用手指在空中比划。"
+    }
+  },
+  {
+    "id": "EN-3A-002",
+    "subject": "英语",
+    "name": "确认身份：Are you ...? 及简短回答",
+    "kind": "表达",
+    "topic_chain": {
+      "chain_id": "en.sentence",
+      "chain_name": "句型（是什么→有几个→介绍与问答→描述）",
+      "step": 30
+    },
+    "difficulty_level": 1,
+    "textbook_refs": [
+      {
+        "edition": "译林版三起2024",
+        "grade": 3,
+        "term": "上",
+        "unit_id": "E3A-U3",
+        "unit_order": 3,
+        "unit_name": "Unit 3 Are you Su Hai?",
+        "verification": "已核-双源",
+        "note": "单元名已核；例句自编，不用教材人物名"
+      }
+    ],
+    "essence": "想问“你是不是……”，把 are 放到句子最前面；回答用 Yes, I am. 或 No, I'm not.",
+    "mastery": [
+      "能用 Are you ...? 确认对方是谁",
+      "能正确作肯定、否定简答",
+      "能在否定回答后补一句 I'm ..."
+    ],
+    "explain": {
+      "scene": "有人敲门，你在门里问：“是你吗，Leo？”",
+      "hook": "You are Leo. 把 are 跳到最前面，就变成问题 Are you Leo?",
+      "steps": [
+        "先说 You are ...",
+        "把 are 提到最前面，句尾语调往上扬",
+        "是：Yes, I am.  不是：No, I'm not. I'm ..."
+      ],
+      "mistake": {
+        "wrong": "Yes, I'm.",
+        "right": "Yes, I am.",
+        "why": "简短回答“是”时，I am 放在句末不能缩写成 I'm"
+      },
+      "example": "自编对话：—Are you Amy? —No, I'm not. I'm Lily."
+    },
+    "pitfalls": [
+      "回答成 Yes, you are.（人称没换过来）"
+    ],
+    "parent_check": "我问你 Are you Leo? 你怎么回答？如果你不是呢？",
+    "status": "草稿",
+    "review": {
+      "by": "",
+      "date": "",
+      "note": "待教师审核"
+    },
+    "updated": "2026-10-19",
+    "oral_diagnosis": {
+      "questions": [
+        {
+          "ask": "我问你 Are you Leo? 你怎么回答？如果你不是呢？",
+          "pass": "是：Yes, I am. 不是：No, I'm not. 并可补 I'm ...",
+          "misconception": "答成 Yes, I'm. 或 Yes, you are."
+        },
+        {
+          "ask": "把 You are Amy. 变成问句怎么说？",
+          "pass": "Are you Amy?",
+          "misconception": "语序不动或漏 are"
+        }
+      ],
+      "fallback": "退到：先练 I am ... / I'm ...；再练把 are 提到前面。"
+    }
+  },
+  {
+    "id": "EN-3A-003",
+    "subject": "英语",
+    "name": "介绍他人：He's / She's ...",
+    "kind": "表达",
+    "topic_chain": {
+      "chain_id": "en.sentence",
+      "chain_name": "句型（是什么→有几个→介绍与问答→描述）",
+      "step": 40
+    },
+    "difficulty_level": 2,
+    "textbook_refs": [
+      {
+        "edition": "译林版三起2024",
+        "grade": 3,
+        "term": "上",
+        "unit_id": "E3A-U5",
+        "unit_order": 5,
+        "unit_name": "Unit 5 She's my mother",
+        "verification": "已核-双源",
+        "note": "单元名已核；例句自编"
+      }
+    ],
+    "essence": "男的用 he，女的用 she；He's＝He is，She's＝She is。",
+    "mastery": [
+      "能分清 he 和 she",
+      "能用 He's / She's my ... 介绍至少4位家人",
+      "能听句子指出说的是谁"
+    ],
+    "explain": {
+      "scene": "翻开全家福，一个一个介绍：这是我爸爸，这是我奶奶。",
+      "hook": "中文“他”“她”读音一样，英语要先看男女：男生 he，女生 she。",
+      "steps": [
+        "先看这个人是男还是女",
+        "男的用 He's，女的用 She's",
+        "后面接身份：my father、my sister"
+      ],
+      "mistake": {
+        "wrong": "指着妈妈说 He's my mother.",
+        "right": "She's my mother.",
+        "why": "he 只能说男的，she 说女的"
+      },
+      "example": "自编句子：She's my sister. He's my grandpa."
+    },
+    "pitfalls": [
+      "漏掉 's，说成 He my father."
+    ],
+    "parent_check": "指着照片里的一位女性长辈，用英语介绍她。为什么用 She？",
+    "status": "草稿",
+    "review": {
+      "by": "",
+      "date": "",
+      "note": "待教师审核"
+    },
+    "updated": "2026-10-19",
+    "oral_diagnosis": {
+      "questions": [
+        {
+          "ask": "指着照片里的一位女性长辈，用英语介绍她。为什么用 She？",
+          "pass": "用 She's my ...，能说明 she 指女的",
+          "misconception": "用 He 指女性，或漏 's"
+        },
+        {
+          "ask": "He's 和 She's 分别是哪两个词缩写的？",
+          "pass": "He is / She is",
+          "misconception": "说成 He / She 本身"
+        }
+      ],
+      "fallback": "退到：先分清 he / she；再练 It's ... 的缩写感觉。"
+    }
+  }
+]
