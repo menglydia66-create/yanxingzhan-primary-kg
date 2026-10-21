@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>怎么用 · 研星站小学数学知识图谱</title>
+<style>
+  :root{--bg:#070b16;--card:#0e1628;--line:rgba(120,180,230,.22);--text:#e8f4ff;--muted:#8aa8c0;--accent:#7af0ff;}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;
+    background:radial-gradient(ellipse at top,#12203a 0%,var(--bg) 55%);color:var(--text);line-height:1.7;}
+  a{color:var(--accent);}
+  .wrap{max-width:720px;margin:0 auto;padding:24px 16px 72px;}
+  .nav{font-size:14px;margin-bottom:18px;}
+  .nav a{margin-right:12px;text-decoration:none;color:#b8d4ec;}
+  h1{font-size:clamp(22px,5vw,30px);margin:0 0 8px;}
+  h2{font-size:18px;margin:28px 0 10px;color:#cfe6f8;}
+  .card{background:rgba(14,22,40,.88);border:1px solid var(--line);border-radius:14px;padding:16px;margin:14px 0;}
+  .card h3{margin:0 0 6px;font-size:17px;}
+  .meta{font-size:13px;color:var(--muted);margin:0 0 12px;}
+  .quote{border-left:3px solid var(--accent);padding:6px 0 6px 12px;margin:10px 0;color:#d7ebfb;}
+  ol,ul{margin:8px 0;padding-left:1.25em;}
+  table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0;}
+  th,td{border:1px solid var(--line);padding:6px 8px;vertical-align:top;}
+  th{background:rgba(0,180,255,.08);text-align:left;}
+  .muted{color:var(--muted);font-size:13px;}
+  .ask{background:#0a1222;border-radius:10px;padding:10px 12px;margin-top:10px;}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="nav">
+    <a href="index.html">← 首页</a>
+    <a href="viz/">3D 图谱</a>
+    <a href="docs/%E6%8C%89%E6%95%99%E6%9D%90%E6%9F%A5.html">按教材查</a>
+  </div>
+  <h1>怎么用（4 步）</h1>
+  <p class="muted">研星站出品 · 免费开源 · 不承诺提分 · 替代不了学校老师</p>
+
+  <div class="card">
+    <ol>
+      <li><b>按教材找点</b>：打开「按教材查」，找到孩子正在学的那一单元。</li>
+      <li><b>找卡点</b>：看「学它之前要会的」，用「家长随口问一句」从当前点往回问；哪一步说不清，卡点大概就在那儿。</li>
+      <li><b>讲懂</b>：生活场景 → 一句话本质 → 口诀/类比 → 一步一步 → 最常见的错。</li>
+      <li><b>有方向地练</b>：用家里已有教辅或课本挑对应题练，不必另买资料。</li>
+    </ol>
+  </div>
+
+  <h2>样例知识点卡（节选）</h2>
+
+  <div class="card" id="sample-1">
+    <h3>点数与1～5的认识</h3>
+    <p class="meta">MA-1A-001 · 人教版 · 一年级上 · 5以内数的认识和加、减法 · 难度 D1</p>
+    <div class="quote">一句话讲透：数数就是一个东西配一个数，最后数到几，一共就有几个。</div>
+    <p><b>学它之前要会的：</b>无，可以直接学。</p>
+    <p><b>怎么讲：</b></p>
+    <ol>
+      <li>生活引入：桌上放 3 个苹果，一边摸一边数：1、2、3。数到 3 就是一共 3 个。</li>
+      <li>本质：一个东西配一个数，最后那个数就是「一共几个」。</li>
+      <li>类比：像排队点名，每人只点一次，不漏、不重复。</li>
+      <li>步骤：手指点着数 → 点一个说一个 → 最后那个数是总数 → 换顺序再数，结果不变。</li>
+      <li>常见错：手快嘴慢多数/漏数 → 手嘴一起走。</li>
+    </ol>
+    <div class="ask"><b>家长随口问一句：</b>这些积木你点着数给我听，一共几个？换个顺序再数，还一样吗？</div>
+  </div>
+
+  <div class="card" id="sample-2">
+    <h3>凑十法：9加几</h3>
+    <p class="meta">MA-1A-012 · 人教版 · 一年级上 · 20以内的进位加法 · 难度 D4</p>
+    <div class="quote">一句话讲透：先凑成一个十，再加剩下的，十几马上就出来。</div>
+    <p><b>学它之前要会的（摘要）：</b>11～20 的认识；加法的意思；最好会 10 的分与合。</p>
+    <p><b>怎么讲：</b></p>
+    <ol>
+      <li>生活引入：9 个苹果放进 10 格盒子，还空 1 格；从另一堆拿 1 个装满，一眼看出是十几。</li>
+      <li>本质：先凑成一个十，再加剩下的。</li>
+      <li>类比：差一个就满的盒子，先把它装满。</li>
+      <li>步骤（以 9＋5）：9 差 1；5 分成 1 和 4；9＋1＝10；10＋4＝14。</li>
+      <li>常见错：做成 10＋5＝15，忘了从 5 里已拿出 1。</li>
+    </ol>
+    <table>
+      <tr><th>常见想法</th><th>可以怎样</th><th>为什么</th></tr>
+      <tr><td>9＋5＝10＋5＝15</td><td>9＋5＝10＋4＝14</td><td>给 9 的那 1 个是从 5 里拿的</td></tr>
+    </table>
+    <div class="ask"><b>家长随口问一句：</b>9＋6，你怎么凑十？把每一步说出来。</div>
+  </div>
+
+  <div class="card" id="sample-3">
+    <h3>笔算乘法连续进位</h3>
+    <p class="meta">MA-3A-016 · 人教版 · 三年级上 · 多位数乘一位数 · 难度 D5</p>
+    <div class="quote">一句话讲透：连续几位都满十时，每一位都要进位，不能漏。</div>
+    <p><b>学它之前要会的：</b>笔算乘法（不连续进位）要先会。</p>
+    <p><b>怎么讲：</b></p>
+    <ol>
+      <li>生活引入：39×3 —— 个位 9×3＝27 写 7 进 2；十位 3×3＝9 加 2＝11，写 1 进 1，得 117。</li>
+      <li>本质：每一位都可能再把进位「传」下去。</li>
+      <li>类比：进位像接力。</li>
+      <li>步骤：从个位乘并处理进位 → 下一位乘完加进位，满十再进 → 到最高位 → 用整十估算核对。</li>
+      <li>常见错：39×3 写成 97，漏掉向百位的进位。</li>
+    </ol>
+    <div class="ask"><b>家长随口问一句：</b>请算 28×4，说说有几次进位。</div>
+  </div>
+
+  <p class="muted">以上为自写讲法摘要，不含教材原文与原题。全量 376 点讲法卡将随国内站逐步开放。研星站出品。</p>
+</main>
+</body>
+</html>

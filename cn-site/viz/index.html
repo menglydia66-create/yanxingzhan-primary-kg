@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="description" content="研星站出品 · 人教版小学数学 376 知识点 3D 依赖图谱（可旋转、缩放、点击）"/>
+<title>研星站 · 小学数学知识图谱 3D</title>
+<style>
+  html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:#030612;font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;color:#e8f4ff;}
+  #graph{position:absolute;inset:0;width:100%;height:100%;}
+  .hud{position:absolute;inset:0;pointer-events:none;z-index:10;}
+  .title-block{position:absolute;top:3.2%;left:0;right:0;text-align:center;
+    opacity:0;transform:translateY(10px);transition:opacity 1s ease, transform 1s ease;}
+  .title-block.show{opacity:1;transform:translateY(0);}
+  .title{font-size:clamp(20px,4.2vw,38px);font-weight:700;letter-spacing:0.06em;
+    text-shadow:0 0 18px rgba(0,229,255,0.55),0 0 40px rgba(80,140,255,0.35);
+    background:linear-gradient(90deg,#7af0ff,#c4b5fd,#ff9de2);-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .subtitle{margin-top:8px;font-size:clamp(13px,2.2vw,18px);color:#9ec9e8;letter-spacing:0.12em;}
+  .hint{margin-top:6px;font-size:clamp(11px,1.6vw,14px);color:#6a8eaa;letter-spacing:0.04em;}
+  .back{position:absolute;top:3%;left:2.5%;pointer-events:auto;z-index:12;
+    display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border-radius:8px;
+    background:rgba(6,18,40,0.75);border:1px solid rgba(120,180,230,0.35);
+    color:#b8d4ec;text-decoration:none;font-size:13px;backdrop-filter:blur(6px);}
+  .back:hover{color:#e8f4ff;border-color:rgba(120,220,255,0.7);}
+  .footer{position:absolute;bottom:2.4%;left:0;right:0;text-align:center;font-size:clamp(12px,1.8vw,15px);color:#5f7f9a;
+    letter-spacing:0.1em;opacity:0;transition:opacity 1s ease 0.5s;}
+  .footer.show{opacity:1;}
+  .legend{position:absolute;left:2.5%;bottom:8%;display:flex;flex-direction:column;gap:5px;
+    opacity:0;transition:opacity 1s ease 0.8s;font-size:12px;color:#8aa8c0;}
+  .legend.show{opacity:1;}
+  .legend .row{display:flex;align-items:center;gap:8px;}
+  .legend i{width:10px;height:10px;border-radius:50%;box-shadow:0 0 8px currentColor;display:inline-block;}
+  .controls{position:absolute;right:2.5%;bottom:8%;display:flex;flex-direction:column;gap:8px;
+    opacity:0;transition:opacity 1s ease 0.8s;pointer-events:auto;}
+  .controls.show{opacity:1;}
+  .controls button{pointer-events:auto;cursor:pointer;border:1px solid rgba(120,180,230,0.35);
+    background:rgba(6,18,40,0.72);color:#b8d4ec;border-radius:8px;padding:8px 12px;font-size:13px;
+    backdrop-filter:blur(6px);letter-spacing:0.04em;}
+  .controls button:hover{border-color:rgba(120,220,255,0.7);color:#e8f4ff;}
+  .controls button.active{border-color:#00e5ff;color:#7af0ff;box-shadow:0 0 12px rgba(0,229,255,0.25);}
+  .panel{position:absolute;left:50%;bottom:11%;transform:translateX(-50%) translateY(8px);
+    min-width:min(92vw,420px);max-width:92vw;padding:14px 16px;border-radius:12px;
+    background:rgba(4,14,32,0.88);border:1px solid rgba(120,180,230,0.28);
+    box-shadow:0 8px 32px rgba(0,0,0,0.45),0 0 24px rgba(0,160,255,0.12);
+    opacity:0;pointer-events:none;transition:opacity 0.25s ease, transform 0.25s ease;
+    backdrop-filter:blur(8px);}
+  .panel.show{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0);}
+  .panel .name{font-size:17px;font-weight:650;color:#eaf8ff;margin:0 0 6px;}
+  .panel .meta{font-size:13px;color:#8eb4d0;margin:0 0 8px;line-height:1.5;}
+  .panel .meta b{color:#b8e4ff;font-weight:600;}
+  .panel .tip{font-size:12px;color:#6a8eaa;line-height:1.45;margin:0;}
+  .panel .close{position:absolute;top:8px;right:10px;border:0;background:transparent;color:#6a8eaa;
+    cursor:pointer;font-size:18px;line-height:1;pointer-events:auto;padding:4px 6px;}
+  .vignette{position:absolute;inset:0;
+    background:radial-gradient(ellipse at center,transparent 42%,rgba(0,4,14,0.72) 100%);
+    pointer-events:none;}
+  .scan{position:absolute;inset:0;opacity:0.05;pointer-events:none;
+    background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,200,255,0.08) 3px);}
+  .err{color:#ff8a80;position:relative;z-index:99;padding:24px;max-width:36em;line-height:1.6;}
+  @media (max-width:640px){
+    .legend{bottom:22%;font-size:11px;}
+    .controls{bottom:22%;}
+    .panel{bottom:18%;}
+    .back{top:2%;left:2%;padding:6px 10px;font-size:12px;}
+  }
+</style>
+</head>
+<body>
+<div id="graph"></div>
+<div class="hud">
+  <a class="back" href="../index.html">← 返回首页</a>
+  <div class="title-block" id="titleBlock">
+    <div class="title">研星站 · 小学数学知识图谱</div>
+    <div class="subtitle">人教版 · 376 知识点</div>
+    <div class="hint">单指拖动旋转 · 双指/滚轮缩放 · 点一下节点看详情</div>
+  </div>
+  <div class="legend" id="legend">
+    <div class="row"><i style="background:#00e5ff;color:#00e5ff"></i>一年级</div>
+    <div class="row"><i style="background:#69f0ae;color:#69f0ae"></i>二年级</div>
+    <div class="row"><i style="background:#eeff41;color:#eeff41"></i>三年级</div>
+    <div class="row"><i style="background:#ffab40;color:#ffab40"></i>四年级</div>
+    <div class="row"><i style="background:#ff6e40;color:#ff6e40"></i>五年级</div>
+    <div class="row"><i style="background:#e040fb;color:#e040fb"></i>六年级</div>
+  </div>
+  <div class="controls" id="controls">
+    <button type="button" id="btnSpin" class="active" title="缓慢自转">自转：开</button>
+    <button type="button" id="btnReset" title="回到总览">回到总览</button>
+  </div>
+  <div class="panel" id="panel" aria-live="polite">
+    <button type="button" class="close" id="panelClose" aria-label="关闭">×</button>
+    <div class="name" id="panelName"></div>
+    <div class="meta" id="panelMeta"></div>
+    <p class="tip" id="panelTip">完整讲法卡（易错点、家长随口问一句）见首页「怎么用」样例；全量将随国内站逐步开放。</p>
+  </div>
+  <div class="footer" id="footer">研星站出品 · 免费开源 · 不承诺提分</div>
+  <div class="vignette"></div>
+  <div class="scan"></div>
+</div>
+<script src="./vendor/three.min.js"></script>
+<script src="./vendor/3d-force-graph.min.js"></script>
+<script src="./vendor/three-spritetext.min.js"></script>
+<script>
+(async function(){
+  const gradeLabel = {1:'一年级',2:'二年级',3:'三年级',4:'四年级',5:'五年级',6:'六年级'};
+  const bookletLabel = {A:'上册',B:'下册'};
+  const data = await fetch('./graph_data.json').then(r=>{
+    if(!r.ok) throw new Error('无法加载 graph_data.json（请用 https 静态托管打开，不要直接双击 file://）');
+    return r.json();
+  });
+
+  const makeGlowNode = (node) => {
+    const group = new THREE.Group();
+    const r = Math.cbrt(node.val || 3) * 2.2;
+    const coreGeo = new THREE.SphereGeometry(r, 12, 12);
+    const coreMat = new THREE.MeshBasicMaterial({
+      color: node.color, transparent: true, opacity: 0.95
+    });
+    group.add(new THREE.Mesh(coreGeo, coreMat));
+    const glowGeo = new THREE.SphereGeometry(r * 2.4, 10, 10);
+    const glowMat = new THREE.MeshBasicMaterial({
+      color: node.color, transparent: true, opacity: 0.18,
+      blending: THREE.AdditiveBlending, depthWrite: false
+    });
+    group.add(new THREE.Mesh(glowGeo, glowMat));
+    if (node.hub) {
+      const st = new SpriteText(node.short || node.name);
+      st.color = '#eaf8ff';
+      st.backgroundColor = 'rgba(4,16,36,0.55)';
+      st.padding = 2.5;
+      st.borderRadius = 3;
+      st.textHeight = 5.5;
+      st.strokeWidth = 0.3;
+      st.strokeColor = node.color;
+      st.position.y = r * 3.2;
+      group.add(st);
+    }
+    return group;
+  };
+
+  const el = document.getElementById('graph');
+  const Graph = ForceGraph3D({ controlType: 'orbit', rendererConfig: { antialias: true, alpha: false } })(el)
+    .graphData(data)
+    .backgroundColor('#030612')
+    .showNavInfo(false)
+    .enableNodeDrag(false)
+    .enableNavigationControls(true)
+    .enablePointerInteraction(true)
+    .nodeThreeObject(makeGlowNode)
+    .nodeThreeObjectExtend(false)
+    .nodeLabel(n => {
+      const g = gradeLabel[n.grade] || '';
+      const pr = (n.prereq != null) ? n.prereq : 0;
+      return `${n.name}<br/><span style="opacity:.85">${g} · 前置 ${pr} 条</span>`;
+    })
+    .linkColor(l => l.strength === '必需' ? 'rgba(120,210,255,0.42)' : 'rgba(90,140,200,0.18)')
+    .linkWidth(l => l.strength === '必需' ? 0.55 : 0.28)
+    .linkOpacity(0.65)
+    .linkDirectionalParticles(0)
+    .cooldownTicks(140)
+    .d3AlphaDecay(0.028)
+    .d3VelocityDecay(0.32)
+    .onNodeClick(showNode)
+    .onBackgroundClick(hidePanel);
+
+  Graph.d3Force('charge').strength(-38);
+  Graph.d3Force('link').distance(28).strength(0.55);
+  Graph.d3Force('center').strength(0.05);
+
+  const gradeForce = (alpha) => {
+    for (const n of data.nodes) {
+      const targetZ = ({1:-380,2:-230,3:-80,4:70,5:220,6:370})[n.grade] || 0;
+      n.vz += (targetZ - n.z) * alpha * 0.08;
+    }
+  };
+  Graph.d3Force('gradeZ', gradeForce);
+
+  const cam = Graph.camera();
+  cam.near = 0.1; cam.far = 5000;
+  Graph.cameraPosition({ x: 0, y: 80, z: 920 }, { x: 0, y: 0, z: 0 }, 0);
+
+  requestAnimationFrame(()=>{
+    document.getElementById('titleBlock').classList.add('show');
+    document.getElementById('footer').classList.add('show');
+    document.getElementById('legend').classList.add('show');
+    document.getElementById('controls').classList.add('show');
+  });
+
+  const panel = document.getElementById('panel');
+  const panelName = document.getElementById('panelName');
+  const panelMeta = document.getElementById('panelMeta');
+
+  function hidePanel(){ panel.classList.remove('show'); }
+  function showNode(node){
+    if(!node) return;
+    const g = gradeLabel[node.grade] || ('年级'+node.grade);
+    const bk = String(node.booklet || '');
+    const half = bookletLabel[bk.slice(-1)] || '';
+    const pr = (node.prereq != null) ? node.prereq : 0;
+    const ld = (node.leads != null) ? node.leads : 0;
+    panelName.textContent = node.name;
+    panelMeta.innerHTML =
+      `<b>${g}${half ? ' · '+half : ''}</b> · 编号 ${node.id}<br/>` +
+      `前置边 <b>${pr}</b> 条 · 引出 <b>${ld}</b> 条`;
+    panel.classList.add('show');
+    const dist = 220;
+    const x = node.x || 0, y = node.y || 0, z = node.z || 0;
+    Graph.cameraPosition(
+      { x: x + dist * 0.55, y: y + 70, z: z + dist * 0.85 },
+      { x, y, z },
+      900
+    );
+  }
+  document.getElementById('panelClose').addEventListener('click', (e)=>{ e.stopPropagation(); hidePanel(); });
+
+  let spinning = true;
+  let angle = 0;
+  const spinRadius = 880;
+  const spinY = 90;
+  const btnSpin = document.getElementById('btnSpin');
+  btnSpin.addEventListener('click', ()=>{
+    spinning = !spinning;
+    btnSpin.classList.toggle('active', spinning);
+    btnSpin.textContent = spinning ? '自转：开' : '自转：关';
+    if (spinning) {
+      const p = Graph.cameraPosition();
+      angle = Math.atan2(p.x, p.z);
+    }
+  });
+  document.getElementById('btnReset').addEventListener('click', ()=>{
+    hidePanel();
+    spinning = true;
+    btnSpin.classList.add('active');
+    btnSpin.textContent = '自转：开';
+    angle = 0;
+    Graph.cameraPosition({ x: 0, y: spinY, z: spinRadius }, { x: 0, y: 0, z: 0 }, 1200);
+  });
+
+  let userInteracting = false;
+  let resumeTimer = null;
+  const canvas = el.querySelector('canvas') || el;
+  const pauseSpin = ()=>{
+    userInteracting = true;
+    if (resumeTimer) clearTimeout(resumeTimer);
+  };
+  const maybeResume = ()=>{
+    if (resumeTimer) clearTimeout(resumeTimer);
+    resumeTimer = setTimeout(()=>{ userInteracting = false; }, 2200);
+  };
+  canvas.addEventListener('pointerdown', pauseSpin);
+  canvas.addEventListener('wheel', pauseSpin, { passive: true });
+  window.addEventListener('pointerup', maybeResume);
+
+  (function spinLoop(){
+    if (spinning && !userInteracting && !panel.classList.contains('show')) {
+      angle += 0.0018;
+      Graph.cameraPosition({
+        x: Math.sin(angle) * spinRadius,
+        y: spinY,
+        z: Math.cos(angle) * spinRadius
+      });
+    }
+    requestAnimationFrame(spinLoop);
+  })();
+
+  window.addEventListener('resize', () => {
+    Graph.width(window.innerWidth);
+    Graph.height(window.innerHeight);
+  });
+})().catch(err=>{
+  console.error(err);
+  document.body.insertAdjacentHTML('beforeend',
+    '<div class="err">加载失败：'+String(err)+'<br/><br/>提示：请把本站上传到腾讯云 EdgeOne Pages / 阿里云 OSS 等 <b>https</b> 静态托管后再打开。直接双击本地文件（file://）时，浏览器往往禁止读取 graph_data.json。</div>');
+});
+</script>
+</body>
+</html>

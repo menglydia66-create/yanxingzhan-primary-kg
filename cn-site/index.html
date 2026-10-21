@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="description" content="研星站出品 · 人教版小学数学知识图谱：376 知识点、前后依赖、家长怎么用。免费开源，不承诺提分。"/>
+<title>研星站 · 小学数学知识图谱</title>
+<style>
+  :root{
+    --bg:#070b16; --card:#0e1628; --line:rgba(120,180,230,.22);
+    --text:#e8f4ff; --muted:#8aa8c0; --accent:#7af0ff; --soft:#c4b5fd;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;
+    background:radial-gradient(ellipse at top,#12203a 0%,var(--bg) 55%);color:var(--text);line-height:1.65;}
+  a{color:var(--accent);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .wrap{max-width:720px;margin:0 auto;padding:28px 18px 64px;}
+  .badge{display:inline-block;font-size:12px;letter-spacing:.08em;color:var(--muted);
+    border:1px solid var(--line);border-radius:999px;padding:4px 10px;margin-bottom:14px;}
+  h1{font-size:clamp(24px,5.5vw,34px);line-height:1.25;margin:0 0 12px;
+    background:linear-gradient(90deg,#7af0ff,#c4b5fd,#ff9de2);-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .lead{font-size:17px;color:#cfe6f8;margin:0 0 22px;}
+  .cta{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 28px;}
+  .btn{display:inline-block;padding:12px 18px;border-radius:10px;font-weight:600;font-size:15px;
+    border:1px solid transparent;text-decoration:none !important;}
+  .btn-primary{background:linear-gradient(135deg,#00c6ff,#7b61ff);color:#fff;}
+  .btn-ghost{background:rgba(14,22,40,.8);border-color:var(--line);color:#d7ebfb;}
+  .card{background:rgba(14,22,40,.85);border:1px solid var(--line);border-radius:14px;padding:18px 16px;margin:14px 0;}
+  .card h2{margin:0 0 10px;font-size:18px;}
+  ol.steps{margin:0;padding-left:1.2em;}
+  ol.steps li{margin:8px 0;}
+  .muted{color:var(--muted);font-size:14px;}
+  .grid{display:grid;gap:10px;margin-top:8px;}
+  @media(min-width:560px){.grid{grid-template-columns:1fr 1fr 1fr;}}
+  .mini{background:#0a1222;border:1px solid var(--line);border-radius:10px;padding:12px;font-size:14px;}
+  .mini b{display:block;margin-bottom:4px;color:#eaf8ff;}
+  .foot{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);}
+  .warn{font-size:13px;color:#9bb3c9;background:rgba(255,180,80,.06);border:1px solid rgba(255,180,80,.2);
+    border-radius:10px;padding:12px 14px;margin:18px 0;}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="badge">研星站出品 · 免费开源</div>
+  <h1>小学数学知识图谱</h1>
+  <p class="lead">一句话：把人教版小学数学一～六年级 <b>376</b> 个知识点，按「先学什么、后学什么」串成一张网，方便家长按孩子正在学的单元查卡点、找讲法。</p>
+
+  <div class="cta">
+    <a class="btn btn-primary" href="viz/">打开 3D 图谱（可旋转）</a>
+    <a class="btn btn-ghost" href="guide.html">怎么用（4 步 + 样例）</a>
+    <a class="btn btn-ghost" href="docs/%E6%8C%89%E6%95%99%E6%9D%90%E6%9F%A5.html">按教材查</a>
+  </div>
+
+  <div class="card">
+    <h2>怎么用（4 步）</h2>
+    <ol class="steps">
+      <li><b>按教材找点</b> —— 打开「按教材查」，找到孩子正在学的单元，点进对应知识点（本站先给样例卡；全量讲法卡随国内站开放）。</li>
+      <li><b>找卡点</b> —— 看「学它之前要会的」前置链，用「家长随口问一句」从当前点往回问；哪一步说不清，卡点大概就在那儿。</li>
+      <li><b>讲懂</b> —— 按讲法聊：生活场景 → 一句话本质 → 口诀/类比 → 一步一步 → 最常见的错。</li>
+      <li><b>有方向地练</b> —— 用家里已有教辅或课本，挑几道对应这个点的题练；不必另买资料、另定任务。</li>
+    </ol>
+    <p class="muted" style="margin:12px 0 0">每个孩子情况不同，这份图谱只作参考，不承诺任何提分效果，也替代不了学校老师。</p>
+  </div>
+
+  <div class="card">
+    <h2>先看 3 个样例卡</h2>
+    <div class="grid">
+      <a class="mini" href="guide.html#sample-1"><b>点数与1～5的认识</b>一年级上 · 入门</a>
+      <a class="mini" href="guide.html#sample-2"><b>凑十法：9加几</b>一年级上 · 高频</a>
+      <a class="mini" href="guide.html#sample-3"><b>笔算乘法连续进位</b>三年级上 · 易错</a>
+    </div>
+  </div>
+
+  <div class="warn">
+    <b>访问说明：</b>3D 图谱需通过 <b>https</b> 网页打开（腾讯云 EdgeOne Pages / 阿里云 OSS 等）。直接双击本地 HTML（file://）时，浏览器常会拦数据加载。手机浏览器也能看，第一次加载稍等节点铺开。
+  </div>
+
+  <div class="card">
+    <h2>这是什么 / 不是什么</h2>
+    <p style="margin:0 0 8px">是：免费开源的知识点结构 + 自写讲法参考（人教数学主链已齐）。</p>
+    <p style="margin:0" class="muted">不是：付费课、答疑群、教材原文、真题照搬。不含课程引流、不设付费墙。</p>
+  </div>
+
+  <div class="foot">
+    研星站出品｜免费开源｜不承诺提分｜讲解自写，不含教材原文与原题<br/>
+    图谱数据与讲解授权说明随完整开源包发布。更新：2026-10-21
+  </div>
+</main>
+</body>
+</html>
