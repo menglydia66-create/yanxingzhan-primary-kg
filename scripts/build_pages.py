@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
-# Copyright (c) 2026 【公司全称待补】
+# Copyright (c) 2026 上海语星宝教育科技有限公司
 """把 data/ 生成可读页面。"""
 import os, re, json
 from common import load, position, topo_order, ROOT
@@ -18,7 +18,7 @@ def ref_text(r):
     if ver: base += f"（{ver}）"
     if r.get('note'): base += f"；{r['note']}"
     return base
-SIGN = "\n---\n研星站 出品｜【公司全称待补】｜本页知识点名称与讲解均为自写，不含教材原文、原题和插图；教材位置以孩子手里的课本为准。｜这不是考试，也不需要家长批改。｜授权：图谱数据 CC BY 4.0，讲解文字 CC BY-NC-SA 4.0（机构商用需另行授权），详见仓库 LICENSE。\n"
+SIGN = "\n---\n研星站 出品｜上海语星宝教育科技有限公司｜本页知识点名称与讲解均为自写，不含教材原文、原题和插图；教材位置以孩子手里的课本为准。｜这不是考试，也不需要家长批改。｜授权：图谱数据 CC BY 4.0，讲解文字 CC BY-NC-SA 4.0（机构商用需另行授权），详见仓库 LICENSE。\n"
 
 os.makedirs(os.path.join(ROOT, 'docs', '知识点'), exist_ok=True)
 for t in topics:

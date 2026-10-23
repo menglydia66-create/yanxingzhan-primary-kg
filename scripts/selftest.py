@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
-# Copyright (c) 2026 【公司全称待补】
+# Copyright (c) 2026 上海语星宝教育科技有限公司
 """自测：故意造坏数据，校验器必须全部拦下。"""
 import json, os, shutil, subprocess, sys, tempfile
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
