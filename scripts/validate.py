@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
-# Copyright (c) 2026 【公司全称待补】
+# Copyright (c) 2026 上海语星宝教育科技有限公司
 """质检：字段、去重、无环、前置不倒序、难度单调、禁词、讲解长度、诊断卡、传递约简、必需前置≤3。
 用法：python3 scripts/validate.py
       python3 scripts/validate.py --fix-levels

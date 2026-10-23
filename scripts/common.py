@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: MIT
-# Copyright (c) 2026 【公司全称待补】
+# Copyright (c) 2026 上海语星宝教育科技有限公司
 """公共读取函数（仅用标准库）。"""
 import json, glob, os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
