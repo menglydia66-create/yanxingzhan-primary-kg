@@ -89,7 +89,7 @@
 | 讲解文字：一句话本质、掌握标准、讲解五件套、易错点、家长随口问一句、口头诊断、变题模式提示（以及 `docs/知识点/` 页面中的这些内容） | [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.txt) | 个人、家庭、学校课堂、教研等非商业用途免费；改编后需以相同协议发布 |
 | 代码 `scripts/` | [MIT](LICENSES/MIT.txt) | 随意使用，保留版权声明即可 |
 
-**机构商用讲解文字需另行授权（联系星老师）**：培训机构、出版方、资源平台、App 或 AI 产品等用于收费课程、付费资料、商业产品的，请联系上海语星宝教育科技有限公司取得书面授权（品牌：星老师 / 研星站；商务授权请研星站或星老师账号私信，须书面授权）。只用结构数据、讲解全部自写的成果物，为结构数据按 CC BY 4.0 署名即可；复制/改编了本库讲解的，按 NC-SA，商用须另授。详见 [LICENSE](LICENSE)、[NOTICE](NOTICE.md)。
+**机构商用讲解文字需另行授权（联系星老师）**：培训机构、出版方、资源平台、App 或 AI 产品等用于收费课程、付费资料、商业产品的，请联系上海语星宝教育科技有限公司取得书面授权（品牌：星老师 / 研星站；商务授权请通过 [GitHub Issues 授权申请入口](https://github.com/menglydia66-create/yanxingzhan-primary-kg/issues/new?title=Commercial-authorization) 联系本仓库维护者，须书面授权）。只用结构数据、讲解全部自写的成果物，为结构数据按 CC BY 4.0 署名即可；复制/改编了本库讲解的，按 NC-SA，商用须另授。详见 [LICENSE](LICENSE)、[NOTICE](NOTICE.md)。
 
 署名格式：`研星站小学知识图谱 ・上海语星宝教育科技有限公司・ https://github.com/menglydia66-create/yanxingzhan-primary-kg ・ 协议名`
 
